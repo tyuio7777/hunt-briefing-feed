@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "id": "2026-09-05",
+  "language": "ko-KR",
+  "title": "Hunt: Showdown 커뮤니티·유출 동향",
+  "subtitle": "공식 업데이트, 커뮤니티 화제와 다음 주 관전 포인트",
+  "published_at": "2026-09-05T00:00:00+09:00",
+  "updated_at": "2026-09-05T00:00:00+09:00",
+  "hero": {
+    "image_url": "https://example.com/hunt-briefing-hero.jpg",
+    "alt": "Hunt: Showdown 주간 브리핑 대표 이미지",
+    "source_url": "https://www.huntshowdown.com/"
+  },
+  "summary": [
+    "Blood Testament와 Update 2.9 공개 내용을 정리합니다.",
+    "공식 정보와 비공식 관측을 구분해 제공합니다."
+  ],
+  "sections": [
+    {
+      "id": "official",
+      "label": "FIELD NOTES · OFFICIAL",
+      "title": "이번 주 공식 소식",
+      "description": "Crytek과 공식 채널에서 확인된 내용입니다.",
+      "display_type": "cards",
+      "items": [
+        {
+          "id": "official-1",
+          "type": "article",
+          "title": "Blood Testament와 Update 2.9",
+          "summary": "이벤트와 주요 시스템 변경 내용을 함께 확인합니다.",
+          "body": "실제 발행 시 검증된 최신 본문이 들어갑니다.",
+          "image_url": null,
+          "badges": [
+            "공식"
+          ],
+          "confidence": "confirmed",
+          "region": null,
+          "published_at": null,
+          "sources": [
+            {
+              "name": "Hunt: Showdown Official",
+              "url": "https://www.huntshowdown.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources-method",
+      "label": "SOURCES & METHOD",
+      "title": "매주 확인하는 정보망",
+      "description": "참조 영역은 앱에서도 낮은 시각적 우선순위로 표시합니다.",
+      "display_type": "muted",
+      "items": [
+        {
+          "id": "sources-1",
+          "type": "reference",
+          "title": "고정 조사처",
+          "summary": "공식 사이트, Steam, SteamDB, Reddit 및 지역별 공개 커뮤니티를 확인합니다.",
+          "body": null,
+          "image_url": null,
+          "badges": [],
+          "confidence": null,
+          "region": null,
+          "published_at": null,
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "html_url": "feed/2026/09/2026-09-05.html"
+}
