@@ -1,5 +1,15 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-07T00:00:00Z",
-  "issues": []
+  "updated_at": "2026-09-07T14:00:00+09:00",
+  "issues": [
+    {
+      "id": "2026-09-07",
+      "title": "Hunt: Showdown 커뮤니티·유출 동향",
+      "subtitle": "Blood Testament 개시 하루 전 · Update 2.9 · 신규 파트너 · Stage III 추적",
+      "published_at": "2026-09-07T14:00:00+09:00",
+      "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-07.json",
+      "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-07.html",
+      "hero_image_url": "https://clan.fastly.steamstatic.com/images/30897473/f247b8b602719ef1da2e12349eceeaa64ac45ff2.jpg"
+    }
+  ]
 }
