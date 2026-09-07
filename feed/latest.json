@@ -1,6 +1,13 @@
 {
   "schema_version": "1.0",
-  "status": "empty",
-  "updated_at": "2026-09-07T00:00:00Z",
-  "issue": null
+  "status": "ready",
+  "updated_at": "2026-09-07T14:00:00+09:00",
+  "issue": {
+    "id": "2026-09-07",
+    "title": "Hunt: Showdown 커뮤니티·유출 동향",
+    "published_at": "2026-09-07T14:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-07.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-07.html",
+    "hero_image_url": "https://clan.fastly.steamstatic.com/images/30897473/f247b8b602719ef1da2e12349eceeaa64ac45ff2.jpg"
+  }
 }
