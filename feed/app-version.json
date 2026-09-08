@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "latest_version": "1.0.0",
+  "latest_version_code": 4,
+  "minimum_supported_version": "1.0.0",
+  "mandatory": false,
+  "published_at": "2026-09-08T14:09:12+09:00",
+  "title": "Hunt Briefing v1.0.0",
+  "release_notes": "Hunt Briefing의 첫 공식 공개 버전입니다.\n\n- 최신 브리핑 조회\n- 지난 브리핑 이력 조회\n- 실시간 공식 정보 조회\n- 브리핑 텍스트 복사 및 공유\n- 지난 브리핑 10개씩 더 보기",
+  "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
+}
