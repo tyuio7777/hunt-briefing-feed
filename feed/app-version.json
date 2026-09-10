@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.0.3",
-  "latest_version_code": 7,
+  "latest_version": "1.0.4",
+  "latest_version_code": 8,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-09-08T16:00:00+09:00",
-  "title": "Hunt Briefing v1.0.3",
-  "release_notes": "알림 토글 및 권한 처리 안정성을 개선하고, 브리핑 복사·공유 시 원문 링크가 포함되도록 수정했습니다.",
+  "published_at": "2026-09-10T15:00:00+09:00",
+  "title": "Hunt Briefing v1.0.4",
+  "release_notes": "메인 화면 디자인과 버튼 가독성을 개선하고, AndroidX 패키지 호환성 및 백그라운드 알림 기능의 안정성을 보완했습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
