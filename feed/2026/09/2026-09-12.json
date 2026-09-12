@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "2026-09-12",
+  "language": "ko-KR",
+  "title": "Hunt: Showdown 커뮤니티·유출 동향",
+  "subtitle": "Stage 2 완료 · Chupacabra 해금 · Hotfix 2.9.0.1 · Stage III 추적",
+  "published_at": "2026-09-12T10:22:00+09:00",
+  "updated_at": "2026-09-12T10:22:00+09:00",
+  "hero": {
+    "image_url": "https://clan.akamai.steamstatic.com/images/30897473/0be4c7f9f3bd1cdd99d27e41da281d38cc1dd6b7.jpg",
+    "alt": "Blood Testament",
+    "source_url": "https://steamcommunity.com/app/594650/announcements/"
+  },
+  "summary": [
+    "Make Them Bleed Stage 2가 완료되며 Chupacabra Trait이 2 Upgrade Points로 구매 가능해졌습니다.",
+    "Update 2.9 이후 Hotfix 2.9.0.1이 적용됐고 Blood Moon, Burgess, Siphon, Chupacabra가 실제 메타에 들어왔습니다.",
+    "다음 핵심 관전 포인트는 Stage III 신규 몬스터의 공개 시점과 분류입니다."
+  ],
+  "sections": [
+    {
+      "id": "editors-lead",
+      "label": "EDITOR'S LEAD · OFFICIAL",
+      "title": "Make Them Bleed Stage 2 완료 — Chupacabra 해금",
+      "sources": [{"name":"Steam official announcements","url":"https://steamcommunity.com/app/594650/announcements/"}]
+    },
+    {
+      "id": "field-notes",
+      "label": "FIELD NOTES · OFFICIAL",
+      "title": "Hotfix 2.9.0.1 · Update 2.9 · Sage of Joseon",
+      "sources": [{"name":"Steam official announcements","url":"https://steamcommunity.com/app/594650/announcements/"}]
+    },
+    {
+      "id": "event-loadout",
+      "label": "EVENT LOADOUT · 신규 콘텐츠 가이드",
+      "title": "Blood Moon · Chupacabra · Burgess · Siphon",
+      "sources": [{"name":"Hunt official","url":"https://www.huntshowdown.com/news/biggest-bloodiest-update-to-hunt-showdown-1896-is-almost-here"}]
+    },
+    {
+      "id": "rumor-watch",
+      "label": "RUMOR WATCH",
+      "title": "Stage III 신규 몬스터 — 존재는 확정, 세부 분류는 추적 중",
+      "sources": [
+        {"name":"Steam official announcements","url":"https://steamcommunity.com/app/594650/announcements/"},
+        {"name":"Reddit discussion","url":"https://www.reddit.com/r/HuntShowdown/comments/1wdd224/new_bounty_target/"}
+      ]
+    },
+    {
+      "id": "around-the-world",
+      "label": "AROUND THE WORLD · 이번 주 지역별 화제",
+      "items": [
+        {"region":"북미/글로벌","url":"https://www.reddit.com/r/HuntShowdown/comments/1wcku8m/make_them_bleed_stage_2_complete/"},
+        {"region":"한국","url":"https://steamcommunity.com/app/594650/announcements/?l=koreana"},
+        {"region":"일본","url":"https://steamcommunity.com/app/594650/announcements/?l=japanese"},
+        {"region":"중국","url":"https://steamcommunity.com/app/594650/announcements/?l=schinese"},
+        {"region":"독일/유럽","url":"https://steamcommunity.com/app/594650/announcements/?l=german"}
+      ]
+    }
+  ]
+}
