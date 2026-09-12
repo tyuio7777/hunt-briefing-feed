@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.0.4",
-  "latest_version_code": 8,
+  "latest_version": "1.0.5",
+  "latest_version_code": 9,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-09-10T15:00:00+09:00",
-  "title": "Hunt Briefing v1.0.4",
-  "release_notes": "메인 화면 디자인과 버튼 가독성을 개선하고, AndroidX 패키지 호환성 및 백그라운드 알림 기능의 안정성을 보완했습니다.",
+  "published_at": "2026-09-13T01:00:00+09:00",
+  "title": "Hunt Briefing v1.0.5",
+  "release_notes": "앱 마스코트와 도트 미니게임 4종을 추가했습니다. 단계별 난이도와 보스전·배니싱 기능을 적용하고, 모바일 조작 및 사격장 무기 상태 표시를 개선했습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
