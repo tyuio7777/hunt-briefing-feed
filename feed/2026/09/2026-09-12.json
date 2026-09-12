@@ -1,111 +1,17 @@
 {
-  "schema_version": "1.0",
-  "id": "2026-09-12",
   "date": "2026-09-12",
   "title": "Hunt: Showdown 커뮤니티·유출 동향",
   "subject": "[주간 브리핑] Hunt: Showdown 커뮤니티·유출 동향 - 2026.09.12",
-  "summary": "Blood Testament Stage 3 완료로 Bloodskin이 해금됐고, Update 2.9.0.1 안정화와 신규 전술 요소를 집중 정리했습니다.",
-  "hero": {
-    "url": "https://clan.akamai.steamstatic.com/images/30897473/0be4c7f9f3bd1cdd99d27e41da281d38cc1dd6b7.jpg",
-    "alt": "Blood Testament 공식 대표 이미지"
-  },
+  "summary": "Blood Testament와 Update 2.9 라이브, Make Them Bleed Stage 3 완료로 Bloodskin 등장, Hotfix 2.9.0.1 및 Sage of Joseon 출시.",
+  "hero": {"url":"https://clan.akamai.steamstatic.com/images/30897473/0be4c7f9f3bd1cdd99d27e41da281d38cc1dd6b7.jpg","alt":"Blood Testament"},
   "sections": [
-    {
-      "id": "editors-lead",
-      "title": "Bloodskin 정식 해금",
-      "items": [
-        {
-          "title": "Make Them Bleed Stage 3 Complete",
-          "source_url": "https://www.reddit.com/r/HuntShowdown/comments/1wdrfhn/bloodskin_has_arrived_make_them_bleed_stage_3/"
-        }
-      ]
-    },
-    {
-      "id": "field-notes",
-      "title": "Update 2.9.0.1 및 단계별 해금",
-      "items": [
-        {
-          "title": "Hotfix 2.9.0.1",
-          "source_url": "https://steamcommunity.com/app/594650/allnews/"
-        },
-        {
-          "title": "Blood Moon / Chupacabra",
-          "source_url": "https://www.huntshowdown.com/news/blood-testament-has-arrived"
-        }
-      ]
-    },
-    {
-      "id": "event-loadout",
-      "title": "Siphon · Chupacabra · Burgess",
-      "items": [
-        {
-          "title": "Update 2.9 공식 설명",
-          "source_url": "https://www.huntshowdown.com/news/blood-testament-has-arrived"
-        }
-      ]
-    },
-    {
-      "id": "rumor-watch",
-      "title": "장기 로테이션과 Chapter 2",
-      "items": [
-        {
-          "title": "Blood Testament 로드맵 관찰",
-          "source_url": "https://steamcommunity.com/app/594650/allnews/"
-        }
-      ]
-    },
-    {
-      "id": "story-bundle",
-      "title": "Lynch의 치료제가 만든 Bloodskin",
-      "items": [
-        {
-          "title": "Blood Testament 배경",
-          "source_url": "https://www.huntshowdown.com/news/biggest-bloodiest-update-to-hunt-showdown-1896-is-almost-here"
-        }
-      ]
-    },
-    {
-      "id": "around-the-world",
-      "title": "지역별 화제",
-      "items": [
-        {
-          "region": "global",
-          "title": "Stage 3 속도와 첫인상",
-          "source_url": "https://www.reddit.com/r/HuntShowdown/comments/1wdrfhn/bloodskin_has_arrived_make_them_bleed_stage_3/"
-        },
-        {
-          "region": "korea",
-          "title": "Sage of Joseon DLC",
-          "source_url": "https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/"
-        },
-        {
-          "region": "europe",
-          "title": "Crytek Blood Testament",
-          "source_url": "https://www.crytek.com/news/blood-testament-comes-to-hunt-showdown-1896-on-september-8th"
-        }
-      ]
-    },
-    {
-      "id": "youtube",
-      "title": "공식 개발자 라이브스트림",
-      "items": [
-        {
-          "channel": "Hunt: Showdown 1896",
-          "title": "Blood Testament | Developer Live Stream",
-          "published_at": "2026-09-03",
-          "source_url": "https://www.youtube.com/watch?v=wumQYLcvdes"
-        }
-      ]
-    }
+    {"id":"editors-lead","title":"Stage 3 돌파 — Bloodskin이 실제 사냥감으로 등장","source_urls":["https://store.steampowered.com/oldnews/?appgroupname=Hunt%3A+Showdown&appids=594650&feed=steam_community_announcements"]},
+    {"id":"field-notes","title":"2.9.0.1 핫픽스와 출시 직후 안정화","source_urls":["https://steamcommunity.com/app/594650/announcements/"]},
+    {"id":"event-loadout","title":"Blood Moon · Chupacabra · Siphon · Burgess","source_urls":["https://www.huntshowdown.com/news/blood-testament-has-arrived"]},
+    {"id":"rumor-watch","title":"Stage 3 보스 루머는 종료 — 이제 후속 챕터가 미확인 영역","source_urls":[]},
+    {"id":"rumor-deep-dive","title":"유출보다 빠르게 공식화된 Bloodskin","source_urls":["https://www.reddit.com/r/HuntShowdown/comments/1w82jjo/the_developer_livestream_accidentally_confirms/"]},
+    {"id":"story-bundle","title":"Lynch의 혈청이 만든 ‘사냥감’ — Warren Russett에서 Bloodskin까지","source_urls":["https://www.crytek.com/news/blood-testament-comes-to-hunt-showdown-1896-on-september-8th"]},
+    {"id":"around-the-world","title":"지역별 공개 화제","source_urls":["https://www.reddit.com/r/HuntShowdown/comments/1w82jjo/the_developer_livestream_accidentally_confirms/","https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/"]}
   ],
-  "source_urls": [
-    "https://www.huntshowdown.com/news/blood-testament-has-arrived",
-    "https://www.huntshowdown.com/news/biggest-bloodiest-update-to-hunt-showdown-1896-is-almost-here",
-    "https://steamcommunity.com/app/594650/allnews/",
-    "https://steamdb.info/app/594650/patchnotes/",
-    "https://www.reddit.com/r/HuntShowdown/comments/1wdrfhn/bloodskin_has_arrived_make_them_bleed_stage_3/",
-    "https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/",
-    "https://www.youtube.com/watch?v=wumQYLcvdes",
-    "https://www.crytek.com/news/blood-testament-comes-to-hunt-showdown-1896-on-september-8th"
-  ]
+  "published_at": "2026-09-12T20:44:00+09:00"
 }
