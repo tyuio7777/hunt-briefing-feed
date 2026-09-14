@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "status": "ready",
-  "updated_at": "2026-09-12T20:44:00+09:00",
+  "updated_at": "2026-09-14T09:00:00+09:00",
   "issue": {
-    "id": "2026-09-12",
+    "id": "2026-09-14",
     "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
-    "subtitle": "Bloodskin 정식 해금 · Stage 3 완료 · Hotfix 2.9.0.1 · Sage of Joseon",
-    "published_at": "2026-09-12T20:44:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-12.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-12.html",
+    "subtitle": "Bloodskin 해금 후 실전 검증 · 순간이동 폭발물 판정 · 첫 주말 공략 확산",
+    "published_at": "2026-09-14T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-14.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-14.html",
     "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/0be4c7f9f3bd1cdd99d27e41da281d38cc1dd6b7.jpg"
   }
 }
