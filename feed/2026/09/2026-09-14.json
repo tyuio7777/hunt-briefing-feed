@@ -10,6 +10,7 @@
     "alt": "Blood Testament 공식 대표 이미지"
   },
   "stats": {"official": 4, "community": 6, "leak": 0, "rumor": 2},
+  "calendar_events": [],
   "sections": [
     {"id":"editors-lead","title":"Bloodskin, 공개에서 실전 검증 단계로","category":"official","source_urls":["https://www.reddit.com/r/HuntShowdown/comments/1wdrfhn/bloodskin_has_arrived_make_them_bleed_stage_3/","https://www.huntshowdown.com/news/blood-testament-has-arrived"]},
     {"id":"field-notes","title":"Hotfix 2.9.0.1과 Sage of Joseon","category":"official","source_urls":["https://steamcommunity.com/app/594650/allnews/","https://steamdb.info/app/594650/patchnotes/","https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/"]},
