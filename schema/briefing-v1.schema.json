@@ -17,6 +17,71 @@
     "html_url"
   ],
   "properties": {
+    "calendar_events": {
+      "type": "array",
+      "description": "브리핑 본문에서 확인한 주요 일정. 누락된 과거 파일은 앱에서 빈 배열로 처리합니다. 날짜는 한국시간 기준이며 날짜만 공개된 일정은 임의의 시간을 부여하지 않습니다.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event_id",
+          "title",
+          "summary",
+          "start_date",
+          "end_date",
+          "source_url",
+          "status"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "동일 일정은 브리핑 간 같은 ID를 유지합니다. 일정 변경·취소 시에도 유지합니다."
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "start_date": {
+            "type": "string",
+            "format": "date",
+            "description": "포함되는 시작 날짜. 출시·해금·점검 시작 같은 시점 표식은 end_date와 같습니다."
+          },
+          "end_date": {
+            "type": "string",
+            "format": "date",
+            "description": "포함되는 마지막 날짜. start_date 이상이어야 합니다. 전체 기간이 불명확하면 알려진 시작/종료 시점만 제목에 명시해 하루 표식으로 기록합니다."
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "tentative",
+              "cancelled"
+            ]
+          },
+          "start_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "시간과 시간대가 명확한 경우에만 기록. 임의의 자정이나 예상 종료 시각을 확정 시각으로 넣지 않습니다."
+          },
+          "end_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "확인된 종료 시각. 날짜와 시간대 변환 후 일치해야 하며 start_at 이후 또는 같은 시각이어야 합니다."
+          }
+        }
+      }
+    },
     "schema_version": {
       "const": "1.0"
     },

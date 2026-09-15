@@ -124,5 +124,26 @@
     "email_subject": "[주간 브리핑] Hunt: Showdown 커뮤니티·유출 동향 - 2026.09.08",
     "email_message_id": "1a07eeb28f88c5b7",
     "html_path": "feed/2026/09/2026-09-08.html"
-  }
+  },
+  "calendar_events": [
+    {
+      "event_id": "hunt-blood-testament-launch",
+      "title": "Blood Testament · Update 2.9 시작",
+      "summary": "Blood Testament 이벤트와 Update 2.9의 시작일입니다. 이벤트 전체 기간이나 종료일을 의미하지 않습니다.",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-08",
+      "source_url": "https://www.huntshowdown.com/news/biggest-bloodiest-update-to-hunt-showdown-1896-is-almost-here",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "hunt-update-2-9-maintenance-start",
+      "title": "Update 2.9 서버 점검 시작",
+      "summary": "한국시간 16:00 서버 점검 시작. 공지된 약 4시간은 예상 소요 시간이므로 확정 종료 시각은 기록하지 않았습니다.",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-08",
+      "source_url": "https://steamcommunity.com/app/594650/announcements/",
+      "status": "confirmed",
+      "start_at": "2026-09-08T16:00:00+09:00"
+    }
+  ]
 }

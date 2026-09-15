@@ -10,7 +10,36 @@
     "alt": "Blood Testament 공식 대표 이미지"
   },
   "stats": {"official": 4, "community": 6, "leak": 0, "rumor": 2},
-  "calendar_events": [],
+  "calendar_events": [
+    {
+      "event_id": "hunt-dlc-sage-of-joseon-release",
+      "title": "Sage of Joseon DLC 출시",
+      "summary": "조선 테마 헌터와 무기 외형을 포함한 DLC 출시일입니다.",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-09",
+      "source_url": "https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "hunt-hotfix-2-9-0-1",
+      "title": "Hotfix 2.9.0.1 적용",
+      "summary": "한국시간 16:30 적용 일정. 충돌 수정과 일부 헌터 재활성화가 포함되며 별도 서버 중단 없이 배포됩니다.",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-10",
+      "source_url": "https://steamcommunity.com/app/594650/announcements/",
+      "status": "confirmed",
+      "start_at": "2026-09-10T16:30:00+09:00"
+    },
+    {
+      "event_id": "hunt-blood-testament-stage-3-bloodskin-unlock",
+      "title": "Stage 3 완료 · Bloodskin 해금",
+      "summary": "Make Them Bleed Stage 3 완료로 Bloodskin이 해금된 날입니다. 정확한 해금 시각은 기록하지 않았습니다.",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "source_url": "https://steamcommunity.com/app/594650/announcements/",
+      "status": "confirmed"
+    }
+  ],
   "sections": [
     {"id":"editors-lead","title":"Bloodskin, 공개에서 실전 검증 단계로","category":"official","source_urls":["https://www.reddit.com/r/HuntShowdown/comments/1wdrfhn/bloodskin_has_arrived_make_them_bleed_stage_3/","https://www.huntshowdown.com/news/blood-testament-has-arrived"]},
     {"id":"field-notes","title":"Hotfix 2.9.0.1과 Sage of Joseon","category":"official","source_urls":["https://steamcommunity.com/app/594650/allnews/","https://steamdb.info/app/594650/patchnotes/","https://store.steampowered.com/app/4730770/Hunt_Showdown_1896__Sage_of_Joseon/"]},
