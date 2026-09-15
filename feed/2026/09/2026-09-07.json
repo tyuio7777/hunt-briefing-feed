@@ -468,12 +468,12 @@
   "html_url": "feed/2026/09/2026-09-07.html",
   "calendar_events": [
     {
-      "event_id": "hunt-blood-testament-launch",
-      "title": "Blood Testament · Update 2.9 시작",
-      "summary": "Blood Testament 이벤트와 Update 2.9의 시작일입니다. 이벤트 전체 기간이나 종료일을 의미하지 않습니다.",
+      "event_id": "hunt-blood-testament",
+      "title": "Blood Testament",
+      "summary": "Hunt: Showdown 1896의 Blood Testament 이벤트 진행 기간입니다.",
       "start_date": "2026-09-08",
-      "end_date": "2026-09-08",
-      "source_url": "https://www.huntshowdown.com/news/biggest-bloodiest-update-to-hunt-showdown-1896-is-almost-here",
+      "end_date": "2026-12-08",
+      "source_url": "https://store.crytek.com/",
       "status": "confirmed"
     }
   ]
