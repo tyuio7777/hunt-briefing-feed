@@ -1,7 +1,16 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-19T09:03:00+09:00",
+  "updated_at": "2026-09-21T12:20:00+09:00",
   "issues": [
+    {
+      "id": "2026-09-21",
+      "title": "공식 2건 · 커뮤니티 3건 · 루머 1건",
+      "subtitle": "2.9.0.3 이후 안정화 · Blood Testament 장기 일정 · Bloodskin 메타",
+      "published_at": "2026-09-21T12:20:00+09:00",
+      "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-21.json",
+      "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-21.html",
+      "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/71ff8ae6879ab37eb0c3505d571285bc3ebe028a.png"
+    },
     {
       "id": "2026-09-19",
       "title": "공식 3건 · 커뮤니티 4건 · 루머 2건",
