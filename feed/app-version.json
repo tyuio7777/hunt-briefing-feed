@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.0.6",
-  "latest_version_code": 10,
+  "latest_version": "1.0.7",
+  "latest_version_code": 11,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-09-15T16:09:04+09:00",
-  "title": "Hunt Briefing v1.0.6",
-  "release_notes": "브리핑 캘린더와 상세 화면 편의 기능을 추가하고, 죽음의 계약 솔로·최대 3인 로컬 협동 플레이를 확장했습니다. 마스코트 집기·이동·마차 탑승 기능과 마차 디자인 및 애니메이션도 개선했습니다.",
+  "published_at": "2026-09-21T17:48:00+09:00",
+  "title": "Hunt Briefing v1.0.7",
+  "release_notes": "일일·주간 현상금 의뢰와 바텐더 상점, 계약·퀘스트 및 Death Contract 소비 아이템을 추가했습니다. 계약 현황 메뉴, 헌터 캠프 기록·백업, 신규 사냥꾼 아스트라와 퀘스트·상점 UI도 개선했습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
