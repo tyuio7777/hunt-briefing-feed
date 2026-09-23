@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.0.7",
-  "latest_version_code": 11,
+  "latest_version": "1.0.8",
+  "latest_version_code": 12,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-09-21T17:48:00+09:00",
-  "title": "Hunt Briefing v1.0.7",
-  "release_notes": "일일·주간 현상금 의뢰와 바텐더 상점, 계약·퀘스트 및 Death Contract 소비 아이템을 추가했습니다. 계약 현황 메뉴, 헌터 캠프 기록·백업, 신규 사냥꾼 아스트라와 퀘스트·상점 UI도 개선했습니다.",
+  "published_at": "2026-09-23T21:17:05+09:00",
+  "title": "Hunt Briefing v1.0.8",
+  "release_notes": "살롱의 행운의 테이블과 신규·이벤트 사냥꾼을 추가했습니다. 폭우·야간·짙은 안개·화재, 늪지와 보스전 실내 연출을 확장하고, 이동 방식 선택·민감도·이벤트 진동을 지원합니다. 전투 사운드와 벌레떼 표현을 개선하고 게임 진입 오류, 문 끼임, 벽 너머 부쉬 반응을 수정했습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
