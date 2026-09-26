@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "status": "ready",
-  "updated_at": "2026-09-21T12:20:00+09:00",
+  "updated_at": "2026-09-26T10:25:00+09:00",
   "issue": {
-    "id": "2026-09-21",
+    "id": "2026-09-26",
     "title": "공식 2건 · 커뮤니티 3건 · 루머 1건",
-    "subtitle": "2.9.0.3 이후 안정화 · Blood Testament 장기 일정 · Bloodskin 메타",
-    "published_at": "2026-09-21T12:20:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-21.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-21.html",
-    "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/71ff8ae6879ab37eb0c3505d571285bc3ebe028a.png"
+    "subtitle": "Double XP Weekend · 2.9.0.3 최신 유지 · Written in Blood 공략·다음 챕터 추적",
+    "published_at": "2026-09-26T10:25:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-26.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-26.html",
+    "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/0be4c7f9f3bd1cdd99d27e41da281d38cc1dd6b7.jpg"
   }
 }
