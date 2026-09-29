@@ -2,78 +2,80 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Hunt: Showdown 1896 Hotfix 2.9.0.3 공식 브리핑 — 입력 감도, 크래시 및 Blood Moon 오디오 수정">
-<title>Hunt 공식 브리핑 — Hotfix 2.9.0.3 배포</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hunt: Showdown 1896 Blood Testament Chapter 2 공식 예고 브리핑. 2026년 10월 6일 시작 예정.">
+<title>Hunt 공식 브리핑 | Blood Testament Chapter 2 예고</title>
 <style>
-:root{color-scheme:dark;--bg:#090807;--panel:#181310;--panel2:#241a15;--line:#4a362b;--text:#eee5d9;--muted:#afa197;--red:#bc3930;--gold:#d4a15b}
+:root{color-scheme:dark;--bg:#0a0908;--panel:#191411;--raised:#251b17;--line:#554036;--text:#f3e9df;--muted:#c9b7a8;--red:#b53b35;--gold:#e5b475;--green:#d8d59d}
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(circle at 50% 0,#591714 0,#160d0b 30%,#090807 66%);color:var(--text);font-family:Arial,"Noto Sans KR",sans-serif;line-height:1.68}
-main{width:min(920px,calc(100% - 28px));margin:28px auto 64px}
-.hero,.card{background:rgba(24,19,16,.97);border:1px solid var(--line);border-radius:15px;padding:clamp(20px,4vw,30px);margin-bottom:18px;box-shadow:0 14px 38px rgba(0,0,0,.3)}
-h1{font-size:clamp(30px,6vw,50px);line-height:1.12;margin:.25em 0}
-h2{font-size:clamp(20px,4vw,27px);margin:0 0 12px}
-p{margin:8px 0}
-.eyebrow,.tag{font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--gold)}
-.status{display:inline-block;padding:7px 12px;border-radius:999px;background:#17331e;border:1px solid #3e7449;color:#bfe6c5;font-size:13px;font-weight:800}
-.muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}
-.metric{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:14px}
-.metric strong{display:block;color:var(--gold);font-size:14px}
-.metric span{font-size:13px;color:var(--muted)}
-ul{padding-left:22px}
-li{margin:7px 0}
-.callout{border-left:4px solid var(--red);padding:12px 15px;background:#15110f;margin-top:15px}
-a{color:#e7b970}
-.sources{font-size:13px;color:var(--muted)}
-@media(max-width:680px){main{margin-top:14px}.grid{grid-template-columns:1fr}.hero,.card{border-radius:11px;padding:19px}}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% -15%,#54201c 0,#1a100e 34%,var(--bg) 73%);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Noto Sans KR","Malgun Gothic",sans-serif}
+a{color:var(--gold);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover,a:focus-visible{color:#ffe0a8}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{width:min(940px,calc(100% - 32px));margin:0 auto;padding:28px 0 58px}
+.hero,.card{background:rgba(25,20,17,.96);border:1px solid var(--line);border-radius:16px;box-shadow:0 16px 42px rgba(0,0,0,.28)}
+.hero{padding:clamp(24px,5vw,44px);border-top:4px solid var(--red)}
+.card{padding:clamp(21px,4vw,32px);margin-top:18px}
+.kicker{margin:0;color:var(--gold);font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h1{font-size:clamp(2rem,6vw,3.55rem);line-height:1.14;letter-spacing:-.035em;margin:.24em 0 .35em}
+h2{font-size:clamp(1.28rem,3.8vw,1.7rem);line-height:1.3;margin:0 0 .7em}
+p{margin:.65em 0}
+.lead{font-size:clamp(1.04rem,2.5vw,1.2rem)}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 0}
+.meta span{display:inline-block;background:var(--raised);border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:.91rem}
+.status{color:var(--green);font-weight:800}
+ul{margin:.5em 0 0;padding-left:1.35em}
+li{padding-left:.15em;margin:.45em 0}
+strong{color:#fff4e8}
+.note{border-left:4px solid var(--red);background:#221714;padding:14px 18px;margin-top:18px}
+.small{font-size:.9rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-top:16px;margin-top:25px}
+@media(max-width:600px){.wrap{width:min(100% - 22px,940px);padding-top:12px}.hero,.card{border-radius:11px}.meta{display:grid;grid-template-columns:1fr;margin-top:19px}body{font-size:15px}}
 </style>
 </head>
 <body>
-<main>
+<main class="wrap">
+<article aria-labelledby="headline">
 <header class="hero">
-<div class="eyebrow">Official Update Monitor · 2026-09-18</div>
-<h1>Hotfix 2.9.0.3<br>라이브 배포</h1>
-<p><span class="status">배포 완료</span></p>
-<p>Hunt 공식 Steam 채널이 Blood Testament 이후 발생한 문제를 해결하는 <strong>Hotfix 2.9.0.3</strong>을 배포했습니다. 입력 감도, 크래시, Blood Moon 오디오와 일부 장비·헌터 기능이 수정됐습니다.</p>
-<div class="grid">
-<div class="metric"><strong>공식 발표</strong><span>2026년 9월 18일</span></div>
-<div class="metric"><strong>현재 상태</strong><span>배포 완료 · 재시작 권장</span></div>
-<div class="metric"><strong>핵심 영향</strong><span>조작감 및 게임 안정성</span></div>
+<p class="kicker">Hunt: Showdown 1896 · 공식 업데이트 브리핑</p>
+<h1 id="headline">Blood Testament<br>Chapter 2 공개 예고</h1>
+<p class="lead">Crytek의 공식 채널이 <strong>Blood Testament Chapter 2</strong>가 <strong>2026년 10월 6일</strong> 이어진다고 발표했습니다. 새 도구와 타로 카드 2장, 컴파운드 변경 등 플레이에 영향을 주는 콘텐츠가 예고됐습니다.</p>
+<div class="meta" aria-label="발표 정보">
+<span>발표: 2026년 9월 29일</span>
+<span>시작 예정: 2026년 10월 6일</span>
+<span class="status">상태: 배포 전 · 공식 예고</span>
 </div>
-<div class="callout"><strong>직전 브리핑에서 달라진 점:</strong> 9월 15일 Written in Blood 챌린지 공개 이후, Update 2.9에서 보고된 주요 플레이 오류를 수정하는 후속 패치가 적용됐습니다.</div>
 </header>
-<section class="card">
-<div class="tag">What changed</div>
-<h2>주요 수정 사항</h2>
+<section class="card" aria-labelledby="changes">
+<h2 id="changes">공개된 변경 사항</h2>
 <ul>
-<li><strong>입력 감도:</strong> 조준(ADS)에서 빠져나온 뒤 비조준 사격의 수평 감도 상승량이 바뀌던 문제와 예상보다 높던 수직 감도를 수정했습니다.</li>
-<li><strong>안정성:</strong> 메뉴로 돌아오는 과정 및 사격장에서 발생하던 크래시를 수정했습니다.</li>
-<li><strong>Blood Moon:</strong> 오디오 믹스를 조정했습니다.</li>
-<li><strong>헌터·특성:</strong> Hex Breaker, Corvid: Bile, Corvid: Brood 고용·구매 불가 문제를 다시 수정하고, Whispersmith가 Burgess 및 변형 무기의 장착·해제에 적용되지 않던 문제를 수정했습니다.</li>
-<li><strong>기타:</strong> Saddle Bags에서 소모품을 받지 못하던 문제, Fidget Blade의 기본 점검 애니메이션 재생, 사격장 재생성 후 Blood Garnet 장식 표시 문제를 수정했습니다.</li>
+<li><strong>컴파운드의 대규모 변경</strong>이 예고됐습니다. 구체적인 지역과 구조는 아직 공개되지 않았습니다.</li>
+<li><strong>새 도구 1종과 타로 카드 2장</strong>이 추가될 예정입니다. 이름, 성능, 획득 방식은 공식 설명에 명시되지 않았습니다.</li>
+<li><strong>새 스토리 챌린지와 커뮤니티 이벤트</strong>가 예정돼 있습니다.</li>
+<li>신규 DLC, Twitch Drops와 추가적인 적 또는 등장 요소도 예고됐으나 세부 사항은 아직 공개되지 않았습니다.</li>
 </ul>
 </section>
-<section class="card">
-<div class="tag">Why it matters</div>
-<h2>왜 중요한가</h2>
-<p>조준 전환 후 감도가 달라지거나 수직 감도가 과도해지는 현상은 교전 중 조작에 직접 영향을 줍니다. 메뉴와 사격장의 크래시 수정도 플레이 안정성을 높입니다. Crytek의 공지는 해당 핫픽스가 이미 배포됐다고 명시합니다.</p>
+<section class="card" aria-labelledby="meaning">
+<h2 id="meaning">왜 중요한가</h2>
+<p>새 도구와 카드가 장비 선택 및 전투 전략을 바꿀 수 있고, 컴파운드 변경은 이동·교전 지형에 직접 영향을 줄 수 있습니다. 이는 단순 홍보나 외형 상품 공지가 아니라 다음 챕터의 핵심 플레이 콘텐츠 예고입니다. 다만 실제 효과와 적용 범위는 추후 발표를 확인해야 합니다.</p>
+<div class="note"><strong>현재 적용 상태:</strong> Chapter 2는 아직 라이브 서버에 적용되지 않았습니다. 10월 6일은 공식 발표의 시작 예정일이며, 세부 패치노트와 정확한 적용 시각은 확인되지 않았습니다.</div>
 </section>
-<section class="card">
-<div class="tag">Player checklist</div>
-<h2>플레이어가 확인할 것</h2>
+<section class="card" aria-labelledby="next">
+<h2 id="next">다음 확인 사항</h2>
 <ul>
-<li>게임 클라이언트를 재시작해 최신 버전에 접속했는지 확인</li>
-<li>ADS 전후 수평 감도와 수직 감도가 기대한 대로 동작하는지 확인</li>
-<li>Burgess를 사용하는 경우 Whispersmith 특성 작동 확인</li>
-<li>문제가 계속되면 버전과 재현 상황을 기록해 공식 지원 채널에 제보</li>
+<li>10월 1일 <strong>18:00 CEST</strong> 개발자 생방송(<strong>한국시간 10월 2일 01:00</strong>)에서 컴파운드 변경, 도구와 카드의 상세 효과를 확인하세요.</li>
+<li>10월 6일 공식 패치노트와 배포 공지에서 실제 적용 시각, 플랫폼별 배포 상태, 이벤트 조건을 확인하세요.</li>
+<li>업데이트 적용 전까지 새 콘텐츠가 게임 내에서 이용 가능하다고 가정하지 마세요.</li>
 </ul>
 </section>
-<footer class="card sources">
-<strong>공식 출처</strong>
-<p><a href="https://steamcommunity.com/app/594650/announcements/">Steam 공식 공지 — Hotfix 2.9.0.3 | Blood Testament (2026-09-18)</a></p>
-<p>이 페이지는 가장 최근에 선정한 주요 공식 발표 한 건을 표시합니다. 이후의 일반 홍보·상점 소식은 반영하지 않습니다.</p>
+<footer class="card">
+<h2>공식 출처</h2>
+<p><a href="https://steamcommunity.com/app/594650/allnews/">Hunt: Showdown 1896 Steam 공식 뉴스 — Chapter 2 Trailer</a></p>
+<p><a href="https://www.reddit.com/r/HuntShowdown/comments/1wte9uw/chapter_2_trailer_blood_testament_hunt_showdown/">HuntShowdownOfficial의 Chapter 2 트레일러 공지</a></p>
+<p class="small">두 공식 게시물에 공개된 내용만 정리했습니다. 미공개 성능과 출시 시각은 추정하지 않았습니다.</p>
 </footer>
+</article>
 </main>
 </body>
 </html>
