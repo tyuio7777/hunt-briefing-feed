@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "status": "ready",
-  "updated_at": "2026-09-28T09:05:00+09:00",
+  "updated_at": "2026-10-03T09:00:00+09:00",
   "issue": {
-    "id": "2026-09-28",
-    "title": "공식 3건 · 커뮤니티 5건 · 루머 2건",
-    "subtitle": "Double XP 마지막 날 · Bloodskin 점프 차단 · 무기 진행도 개선 논의",
-    "published_at": "2026-09-28T09:05:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-28.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/09/2026-09-28.html",
-    "hero_image_url": "https://clan.fastly.steamstatic.com/images/30897473/cf8bfde7a037dad1d38cf841da98da2d30cd70d4.jpg"
+    "id": "2026-10-03",
+    "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
+    "subtitle": "Blood Testament Chapter 2 예고 · Bound by Blood 출시 · Long Derringer·Inferno 귀환",
+    "published_at": "2026-10-03T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-03.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-03.html",
+    "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/3c8d385c9ddae7ff6c2ca9b7036c9cc56b3c52ab.jpg"
   }
 }
