@@ -6,8 +6,8 @@
   "published_at": "2026-10-03T09:00:00+09:00",
   "summary": "Blood Testament Chapter 2의 10월 6일 시작과 Bound by Blood DLC의 10월 7일 출시를 중심으로, 확정 콘텐츠·커뮤니티 반응·미확정 세부 기능을 분리해 정리했습니다.",
   "hero": {
-    "image_url": "https://clan.akamai.steamstatic.com/images/30897473/3c8d385c9ddae7ff6c2ca9b7036c9cc56b3c52ab.jpg",
-    "alt": "Hunt Showdown 1896 Blood Testament Chapter 2"
+    "alt": "Hunt Showdown 1896 Blood Testament Chapter 2",
+    "url": "https://clan.akamai.steamstatic.com/images/30897473/3c8d385c9ddae7ff6c2ca9b7036c9cc56b3c52ab.jpg"
   },
   "stats": {
     "official": 4,
@@ -49,73 +49,97 @@
       "id": "blood-testament-chapter-2",
       "category": "official",
       "title": "Blood Testament Chapter 2",
-      "url": "https://steamcommunity.com/games/594650/announcements/detail/669503396264282555"
+      "source_urls": [
+        "https://steamcommunity.com/games/594650/announcements/detail/669503396264282555"
+      ]
     },
     {
       "id": "bound-by-blood-dlc",
       "category": "official",
       "title": "Bound by Blood DLC",
-      "url": "https://store.steampowered.com/app/4733620/Hunt_Showdown_1896__Bound_by_Blood/"
+      "source_urls": [
+        "https://store.steampowered.com/app/4733620/Hunt_Showdown_1896__Bound_by_Blood/"
+      ]
     },
     {
       "id": "player-survey-2026",
       "category": "official",
       "title": "Player Survey 2026",
-      "url": "https://www.surveymonkey.com/r/JTL5ZVS"
+      "source_urls": [
+        "https://www.surveymonkey.com/r/JTL5ZVS"
+      ]
     },
     {
       "id": "crytek-autumn-sale-2026",
       "category": "official",
       "title": "Crytek Autumn Sale",
-      "url": "https://steamcommunity.com/app/594650/announcements/"
+      "source_urls": [
+        "https://steamcommunity.com/app/594650/announcements/"
+      ]
     },
     {
       "id": "reddit-chapter-2-reactions",
       "category": "community",
       "title": "Chapter 2 예고편 반응",
-      "url": "https://www.reddit.com/r/HuntShowdown/comments/1wte9uw/chapter_2_trailer_blood_testament_hunt_showdown/"
+      "source_urls": [
+        "https://www.reddit.com/r/HuntShowdown/comments/1wte9uw/chapter_2_trailer_blood_testament_hunt_showdown/"
+      ]
     },
     {
       "id": "reddit-livestream-format",
       "category": "community",
       "title": "개발자 방송 형식 평가",
-      "url": "https://www.reddit.com/r/HuntShowdown/comments/1wv3hua/blood_testament_chapter_2_developer_live_stream/"
+      "source_urls": [
+        "https://www.reddit.com/r/HuntShowdown/comments/1wv3hua/blood_testament_chapter_2_developer_live_stream/"
+      ]
     },
     {
       "id": "reddit-event-format-appreciation",
       "category": "community",
       "title": "장기 이벤트 구조 재평가",
-      "url": "https://www.reddit.com/r/HuntShowdown/comments/1wtm0z4/we_dont_say_this_enough_about_crytek/"
+      "source_urls": [
+        "https://www.reddit.com/r/HuntShowdown/comments/1wtm0z4/we_dont_say_this_enough_about_crytek/"
+      ]
     },
     {
       "id": "youtube-psychoghost",
       "category": "community",
       "title": "Psychoghost 최신 Hunt 영상",
-      "url": "https://www.youtube.com/watch?v=U571QotRGUQ"
+      "source_urls": [
+        "https://www.youtube.com/watch?v=U571QotRGUQ"
+      ]
     },
     {
       "id": "youtube-rexnor",
       "category": "community",
       "title": "REXNOR 최신 공개 Hunt 영상",
-      "url": "https://www.youtube.com/watch?v=D6r77BrZ05E"
+      "source_urls": [
+        "https://www.youtube.com/watch?v=D6r77BrZ05E"
+      ]
     },
     {
       "id": "youtube-toxic-pancake",
       "category": "community",
       "title": "Toxic Pancake 최신 Hunt 영상",
-      "url": "https://www.youtube.com/watch?v=USg1YeLrCQ4"
+      "source_urls": [
+        "https://www.youtube.com/watch?v=USg1YeLrCQ4"
+      ]
     },
     {
       "id": "rumor-temperance-effect",
       "category": "rumor",
       "title": "Temperance 효과 추정",
-      "url": "https://www.reddit.com/r/HuntShowdown/comments/1wte9uw/chapter_2_trailer_blood_testament_hunt_showdown/"
+      "source_urls": [
+        "https://www.reddit.com/r/HuntShowdown/comments/1wte9uw/chapter_2_trailer_blood_testament_hunt_showdown/"
+      ]
     },
     {
       "id": "rumor-familiar-faces-nightmares",
       "category": "rumor",
       "title": "Familiar faces, new nightmares 해석",
-      "url": "https://steamcommunity.com/games/594650/announcements/detail/669503396264282555"
+      "source_urls": [
+        "https://steamcommunity.com/games/594650/announcements/detail/669503396264282555"
+      ]
     }
   ],
   "source_urls": [
