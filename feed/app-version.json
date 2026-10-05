@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.0.9",
-  "latest_version_code": 13,
+  "latest_version": "1.1.0",
+  "latest_version_code": 14,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-09-28T00:00:00+09:00",
-  "title": "Hunt Briefing v1.0.9",
-  "release_notes": "죽음의 계약에 신규 보스 거미와 일반·희귀 필드 기믹을 추가하고, 필드 환경과 인게임 조작 인터페이스, 버튼·재장전 효과음을 개선했습니다. 마지막 등불 살롱의 행운의 테이블에는 판돈 선택과 와일드 규칙, 컵·주사위 연출을 갖춘 신규 게임 거짓의 주사위를 추가했습니다.",
+  "published_at": "2026-10-05T00:00:00+09:00",
+  "title": "Hunt Briefing v1.1.0",
+  "release_notes": "죽음의 계약에 신규 장기 콘텐츠인 사적 의뢰를 추가했습니다. 마지막 등불 살롱의 늙은 사냥꾼에게서 정화·조사·회수 의뢰를 받을 수 있으며, 최대 5개 스테이지 동안 이어지는 목표와 단계별 보상, 청각·시각 흔적 탐색, 헬본·수생 변이체·정부군·저주 누적 등 새로운 사건과 위험 요소를 경험할 수 있습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
