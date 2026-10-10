@@ -1,7 +1,16 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T09:00:00+09:00",
+  "updated_at": "2026-10-10T09:00:00+09:00",
   "issues": [
+    {
+      "id": "2026-10-10",
+      "title": "공식 6건 · 커뮤니티 6건",
+      "subtitle": "Chapter 2 실전 전환 · All Hallows’ Cleave 10월 13일 · Temperance·Long Derringer 확정",
+      "published_at": "2026-10-10T09:00:00+09:00",
+      "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-10.json",
+      "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-10.html",
+      "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/3c8d385c9ddae7ff6c2ca9b7036c9cc56b3c52ab.jpg"
+    },
     {
       "id": "2026-10-05",
       "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
