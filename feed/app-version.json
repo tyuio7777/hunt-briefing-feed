@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.1.0",
-  "latest_version_code": 14,
+  "latest_version": "1.1.1",
+  "latest_version_code": 15,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-10-05T00:00:00+09:00",
-  "title": "Hunt Briefing v1.1.0",
-  "release_notes": "죽음의 계약에 신규 장기 콘텐츠인 사적 의뢰를 추가했습니다. 마지막 등불 살롱의 늙은 사냥꾼에게서 정화·조사·회수 의뢰를 받을 수 있으며, 최대 5개 스테이지 동안 이어지는 목표와 단계별 보상, 청각·시각 흔적 탐색, 헬본·수생 변이체·정부군·저주 누적 등 새로운 사건과 위험 요소를 경험할 수 있습니다.",
+  "published_at": "2026-10-13T00:00:00+09:00",
+  "title": "Hunt Briefing v1.1.1",
+  "release_notes": "죽음의 계약에 신규 메인 보스 어쌔신, 흔적과 보스를 감지하는 어둠의 흔적, 화면 드래그를 이용한 고개 움직임을 추가했습니다. 현상금 탐색의 시각·음향 연출과 협동 현상금 위치 표시를 보강하고, 도살자 전투의 렌더링 부담 및 처치 후 야간·안개 시야가 비정상적으로 제한되던 문제를 개선했습니다. 함께 플레이할 모든 기기를 같은 최신 버전으로 업데이트해 주세요.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
