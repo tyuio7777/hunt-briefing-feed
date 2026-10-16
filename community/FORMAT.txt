@@ -1,0 +1,16 @@
+운영 파일
+- config.json: GitHub App 등록 후 github_client_id와 guestbook_repository_id를 넣고 enabled를 true로 변경합니다.
+- notices.json: schema_version=1.0, notices 배열. 빈 배열은 정상적인 빈 목록입니다.
+
+각 공지의 필드
+- id: 한 공지의 영구 ID(문자열, 1~80자). 수정해도 유지합니다.
+- title: 제목(1~150자).
+- summary: 목록 요약(최대 500자, 비워도 됨).
+- body: 전체 본문(최대 20,000자). 일반 텍스트와 \n 줄바꿈. HTML/스크립트는 실행되지 않습니다.
+- published_at: ISO 8601 시각 및 시간대. 미래 시각의 공지는 그 시각부터 표시합니다.
+- updated_at: ISO 8601 시각 및 시간대. published_at 이상이어야 하며 수정 시 갱신하면 다시 새 공지로 표시됩니다.
+- pinned: true면 맨 위에 표시.
+- visible: false면 앱에서 숨김.
+
+원문은 UTC Z 또는 +09:00을 명시합니다. 앱에는 기기 현지 시간으로 표시합니다.
+공지 탭 진입과 새로고침으로 최신 정보를 조회합니다.
