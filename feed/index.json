@@ -1,7 +1,16 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-24T09:00:00+09:00",
+  "updated_at": "2026-10-26T09:00:00+09:00",
   "issues": [
+    {
+      "id": "2026-10-26",
+      "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
+      "subtitle": "Twitch Drops 오늘 밤 개시 · 5개 보상 창과 128개 보상 · 무료 시청·유료 지원 조건 분리",
+      "published_at": "2026-10-26T09:00:00+09:00",
+      "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-26.json",
+      "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-26.html",
+      "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/c98e8aaa00dde106cce0fa1770d02c4a9ccbe12b.jpg"
+    },
     {
       "id": "2026-10-24",
       "title": "공식 4건 · 커뮤니티 7건 · 루머 2건",
