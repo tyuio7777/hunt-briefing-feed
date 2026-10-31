@@ -1,7 +1,16 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-26T09:00:00+09:00",
+  "updated_at": "2026-10-31T09:00:00+09:00",
   "issues": [
+    {
+      "id": "2026-10-31",
+      "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
+      "subtitle": "Leap of Faith 창 개시 · PS Plus 마지막 주말 · Twitch Drops 2주차 전환 준비",
+      "published_at": "2026-10-31T09:00:00+09:00",
+      "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-31.json",
+      "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/10/2026-10-31.html",
+      "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/c98e8aaa00dde106cce0fa1770d02c4a9ccbe12b.jpg"
+    },
     {
       "id": "2026-10-26",
       "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
@@ -148,3 +157,4 @@
     }
   ]
 }
+
