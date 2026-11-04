@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "videoId": "wumQYLcvdes",
+  "contentRevision": "playback-20261104-v1",
+  "mediaRevision": "youtube-wumQYLcvdes-2116s",
+  "language": "ko",
+  "summary": "",
+  "segments": [],
+  "cues": [],
+  "evidence": [],
+  "aliases": [],
+  "translation": {
+    "status": "none",
+    "checkedRanges": [],
+    "reason": "원본 영상을 먼저 등록했습니다. 번역은 아직 제공되지 않습니다."
+  },
+  "timeline": {
+    "status": "none",
+    "checkedRanges": [],
+    "reason": "타임라인은 아직 제공되지 않습니다."
+  },
+  "alignmentVerified": false,
+  "publication": {
+    "status": "published",
+    "createdAt": "2026-11-04T09:44:53+00:00",
+    "reviewedAt": "2026-11-04T09:44:53+00:00",
+    "publishedAt": "2026-11-04T09:44:53+00:00",
+    "distributionConfirmed": true,
+    "sourceTextAllowed": false
+  }
+}
