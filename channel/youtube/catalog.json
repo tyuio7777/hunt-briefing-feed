@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "catalogRevision": "catalog-20261104-playback-1",
+  "publishedAt": "2026-11-04T08:18:55+00:00",
+  "channelId": "UCd-9pZ4Vcmsjw5TsPKWrigw",
+  "videos": [
+    {
+      "videoId": "Mz8ungOdl8M",
+      "channelId": "UCd-9pZ4Vcmsjw5TsPKWrigw",
+      "title": "Blood Testament Chapter 2 | Developer Livestream",
+      "channelTitle": "Hunt: Showdown",
+      "url": "https://www.youtube.com/watch?v=Mz8ungOdl8M",
+      "thumbnail": "https://i.ytimg.com/vi/Mz8ungOdl8M/hqdefault.jpg",
+      "publishedAt": "2026-10-01T10:30:42-07:00",
+      "durationMs": 3919000,
+      "metadataCheckedAt": "2026-11-04T08:18:55+00:00",
+      "public": true,
+      "vod": true,
+      "embeddable": true,
+      "contentRevision": "playback-test-20261104-v1",
+      "mediaRevision": "youtube-Mz8ungOdl8M-3919s",
+      "packagePath": "packages/78ca93ed0861bccd5b48b51f4b44a2e9a401e3a807b7e79f704cca95d1990c0f.json",
+      "sha256": "78ca93ed0861bccd5b48b51f4b44a2e9a401e3a807b7e79f704cca95d1990c0f",
+      "bytes": 866,
+      "keywords": [],
+      "searchText": "",
+      "translationStatus": "none",
+      "timelineStatus": "none",
+      "gameEffectiveAt": null
+    }
+  ],
+  "withdrawn": []
+}
