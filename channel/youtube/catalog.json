@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogRevision": "catalog-20261104-playback-3",
-  "publishedAt": "2026-11-04T09:44:53+00:00",
+  "catalogRevision": "catalog-20261105-wumQYLcvdes-summary-v1",
+  "publishedAt": "2026-11-05T13:25:43+00:00",
   "channelId": "UCd-9pZ4Vcmsjw5TsPKWrigw",
   "videos": [
     {
@@ -65,11 +65,11 @@
       "public": true,
       "vod": true,
       "embeddable": true,
-      "contentRevision": "playback-20261104-v1",
+      "contentRevision": "summary-20261105-v1",
       "mediaRevision": "youtube-wumQYLcvdes-2116s",
-      "packagePath": "packages/b9a78303658a4aac9c96d1ce8d8b461b14983b69f9c548080639ebdac2ce1cc1.json",
-      "sha256": "b9a78303658a4aac9c96d1ce8d8b461b14983b69f9c548080639ebdac2ce1cc1",
-      "bytes": 847,
+      "packagePath": "packages/1f073dbd5a22e08463250d134f37570bf01cb3a981683d150bdca37aedd36bf1.json",
+      "sha256": "1f073dbd5a22e08463250d134f37570bf01cb3a981683d150bdca37aedd36bf1",
+      "bytes": 1475,
       "keywords": [],
       "searchText": "",
       "translationStatus": "none",
