@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogRevision": "catalog-20261106-two-videos-partial-v1",
-  "publishedAt": "2026-11-06T08:36:06.700Z",
+  "catalogRevision": "catalog-20261106-two-videos-aligned-v2",
+  "publishedAt": "2026-11-06T08:57:28.917Z",
   "channelId": "UCd-9pZ4Vcmsjw5TsPKWrigw",
   "videos": [
     {
@@ -17,11 +17,11 @@
       "public": true,
       "vod": true,
       "embeddable": true,
-      "contentRevision": "ko-reviewed-partial-20261106-v1",
+      "contentRevision": "ko-aligned-partial-20261106-v2",
       "mediaRevision": "youtube-Mz8ungOdl8M-3919s",
-      "packagePath": "packages/1a2f9370dcb6083bb65906f2558efbb000b1269b38ef41f4cc005bd6c29d55f5.json",
-      "sha256": "1a2f9370dcb6083bb65906f2558efbb000b1269b38ef41f4cc005bd6c29d55f5",
-      "bytes": 368412,
+      "packagePath": "packages/067ba8065259115a85ee3247b4b704daf90d8b28c5c07b1e6b1032038849998f.json",
+      "sha256": "067ba8065259115a85ee3247b4b704daf90d8b28c5c07b1e6b1032038849998f",
+      "bytes": 297250,
       "keywords": [
         "Blood Testament",
         "진행자 인사와 방송 구성",
@@ -82,11 +82,11 @@
       "public": true,
       "vod": true,
       "embeddable": true,
-      "contentRevision": "ko-reviewed-partial-20261106-v1",
+      "contentRevision": "ko-aligned-partial-20261106-v2",
       "mediaRevision": "youtube-qUPhr8ZVyKY-2361s",
-      "packagePath": "packages/ae2307b59442d6dba1cd93d486bcfd67acacdfcc49162bcb9d060f999cba331d.json",
-      "sha256": "ae2307b59442d6dba1cd93d486bcfd67acacdfcc49162bcb9d060f999cba331d",
-      "bytes": 292392,
+      "packagePath": "packages/da5a7c18a150eff5036d5692c86526ad1ecb3b2ba69313626deb5dfd17c0bdda.json",
+      "sha256": "da5a7c18a150eff5036d5692c86526ad1ecb3b2ba69313626deb5dfd17c0bdda",
+      "bytes": 236259,
       "keywords": [
         "Blood Testament",
         "기술 문제 사과와 방송 재개",
