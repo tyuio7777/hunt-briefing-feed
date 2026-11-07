@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-02T09:00:00+09:00",
+  "updated_at": "2026-11-07T09:00:00+09:00",
   "status": "ready",
   "issue": {
-    "id": "2026-11-02",
+    "id": "2026-11-07",
     "title": "공식 4건 · 커뮤니티 6건 · 루머 2건",
-    "subtitle": "Leap of Faith 마지막 날 · Random Charm 창 전환 · PS Plus 제공 종료일",
-    "published_at": "2026-11-02T09:00:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-02.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-02.html",
-    "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/c98e8aaa00dde106cce0fa1770d02c4a9ccbe12b.jpg"
+    "subtitle": "Blood Testament Chapter 3 적용 · Lancaster 공동 해금 대기 · Fair Play Follow Up",
+    "published_at": "2026-11-07T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-07.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-07.html",
+    "hero_image_url": "https://www.huntshowdown.com/files/releasenotes/Blog_1920x108070.jpg"
   }
 }
 
