@@ -1,0 +1,4668 @@
+{
+  "$id": "urn:hunt-reference:catalog:1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "ammo": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "damage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "dropMeters": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "effects": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "imageAssetId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "priceHuntDollars": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "slots": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "velocityMps": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "weaponId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "weaponId",
+              "priceHuntDollars",
+              "slots",
+              "damage",
+              "velocityMps",
+              "dropMeters",
+              "effects",
+              "imageAssetId"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "damage": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "dropMeters": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "effects": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "imageAssetId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "priceHuntDollars": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "slots": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "velocityMps": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "weaponId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "weaponId",
+              "priceHuntDollars",
+              "slots",
+              "damage",
+              "velocityMps",
+              "dropMeters",
+              "effects",
+              "imageAssetId"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 0,
+      "type": "array"
+    },
+    "dataVersion": {
+      "type": "string"
+    },
+    "gear": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "damage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "durationSeconds": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "effect": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "heavyDamage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "heavyStamina": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "imageAssetId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "kind": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "lightDamage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "lightStamina": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameKo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "packCount": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "priceHuntDollars": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "rangeMeters": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "reachMeters": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "unlockCondition": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "kind",
+              "priceHuntDollars",
+              "packCount",
+              "effect",
+              "durationSeconds",
+              "damage",
+              "rangeMeters",
+              "unlockCondition",
+              "lightStamina",
+              "heavyStamina",
+              "lightDamage",
+              "heavyDamage",
+              "reachMeters",
+              "imageAssetId"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "damage": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "durationSeconds": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "effect": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "heavyDamage": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "heavyStamina": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "imageAssetId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "kind": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "lightDamage": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "lightStamina": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameKo": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "packCount": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "priceHuntDollars": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "rangeMeters": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "reachMeters": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unlockCondition": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "kind",
+              "priceHuntDollars",
+              "packCount",
+              "effect",
+              "durationSeconds",
+              "damage",
+              "rangeMeters",
+              "unlockCondition",
+              "lightStamina",
+              "heavyStamina",
+              "lightDamage",
+              "heavyDamage",
+              "reachMeters",
+              "imageAssetId"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 1,
+      "type": "array"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "images": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "attribution": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "candidateUrl": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "licenseEvidenceUrl": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "licenseStatus": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "localFile": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "redistributionApproved": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "relatedId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "sha256": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "relatedId",
+              "candidateUrl",
+              "licenseStatus",
+              "redistributionApproved",
+              "localFile",
+              "sha256",
+              "licenseEvidenceUrl",
+              "attribution"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "attribution": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "candidateUrl": {
+                "pattern": "^https://[^\\s]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "licenseEvidenceUrl": {
+                "pattern": "^https://[^\\s]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "licenseStatus": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "localFile": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "redistributionApproved": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "relatedId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sha256": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "relatedId",
+              "candidateUrl",
+              "licenseStatus",
+              "redistributionApproved",
+              "localFile",
+              "sha256",
+              "licenseEvidenceUrl",
+              "attribution"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 0,
+      "type": "array"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "researchOnly": {
+      "type": "boolean"
+    },
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "skins": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "acquisition": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "availability": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "baseItemId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "baseItemName": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "eventOrDlc": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "imageAssetId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "kind": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameKo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "releaseDate": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "kind",
+              "baseItemId",
+              "baseItemName",
+              "releaseDate",
+              "acquisition",
+              "availability",
+              "eventOrDlc",
+              "imageAssetId"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "acquisition": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "availability": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "baseItemId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "baseItemName": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "eventOrDlc": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "imageAssetId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "kind": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameKo": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "releaseDate": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "kind",
+              "baseItemId",
+              "baseItemName",
+              "releaseDate",
+              "acquisition",
+              "availability",
+              "eventOrDlc",
+              "imageAssetId"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 0,
+      "type": "array"
+    },
+    "snapshotId": {
+      "pattern": "^[a-z0-9][a-z0-9.-]+$",
+      "type": "string"
+    },
+    "sourcePatch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "traits": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "acquisition": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "category": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "conditions": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "costPoints": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "effectKo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "effectStructured": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "equipmentIds": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "flags": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "imageAssetId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameKo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "category",
+              "costPoints",
+              "acquisition",
+              "flags",
+              "effectKo",
+              "effectStructured",
+              "conditions",
+              "equipmentIds",
+              "imageAssetId"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "acquisition": {
+                "items": {
+                  "type": "string"
+                },
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "uniqueItems": true
+              },
+              "category": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "conditions": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "costPoints": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "effectKo": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "effectStructured": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "equipmentIds": {
+                "items": {
+                  "pattern": "^[a-z][a-z0-9-]+$",
+                  "type": "string"
+                },
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "uniqueItems": true
+              },
+              "flags": {
+                "items": {
+                  "type": "string"
+                },
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "uniqueItems": true
+              },
+              "imageAssetId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameKo": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "category",
+              "costPoints",
+              "acquisition",
+              "flags",
+              "effectKo",
+              "effectStructured",
+              "conditions",
+              "equipmentIds",
+              "imageAssetId"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 1,
+      "type": "array"
+    },
+    "weapons": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldReviews": {
+            "additionalProperties": false,
+            "properties": {
+              "ammoClass": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "capacity": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "customAmmoCoverage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "customAmmoIds": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "cycleSeconds": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "damage": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "dropMeters": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "imageAssetId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameEn": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "nameKo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "priceHuntDollars": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "reloadSeconds": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "reserveAmmo": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "slots": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "unlockCondition": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "variantOfId": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              },
+              "velocityMps": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidenceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observedAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourcePatch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sourceUrl": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "missing",
+                      "unverified",
+                      "verified",
+                      "not_applicable"
+                    ]
+                  }
+                },
+                "required": [
+                  "status",
+                  "sourceId",
+                  "sourceUrl",
+                  "observedAt",
+                  "sourcePatch",
+                  "evidenceId"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "variantOfId",
+              "ammoClass",
+              "priceHuntDollars",
+              "damage",
+              "velocityMps",
+              "dropMeters",
+              "cycleSeconds",
+              "slots",
+              "capacity",
+              "reserveAmmo",
+              "reloadSeconds",
+              "customAmmoIds",
+              "customAmmoCoverage",
+              "unlockCondition",
+              "imageAssetId"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "values": {
+            "additionalProperties": false,
+            "properties": {
+              "ammoClass": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "capacity": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "customAmmoCoverage": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "customAmmoIds": {
+                "items": {
+                  "pattern": "^[a-z][a-z0-9-]+$",
+                  "type": "string"
+                },
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "uniqueItems": true
+              },
+              "cycleSeconds": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "damage": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "dropMeters": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "imageAssetId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameEn": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "nameKo": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "priceHuntDollars": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "reloadSeconds": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "reserveAmmo": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "slots": {
+                "minimum": 0,
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "unlockCondition": {
+                "minLength": 1,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "variantOfId": {
+                "pattern": "^[a-z][a-z0-9-]+$",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "velocityMps": {
+                "minimum": 0,
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "nameEn",
+              "nameKo",
+              "variantOfId",
+              "ammoClass",
+              "priceHuntDollars",
+              "damage",
+              "velocityMps",
+              "dropMeters",
+              "cycleSeconds",
+              "slots",
+              "capacity",
+              "reserveAmmo",
+              "reloadSeconds",
+              "customAmmoIds",
+              "customAmmoCoverage",
+              "unlockCondition",
+              "imageAssetId"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "values",
+          "fieldReviews"
+        ],
+        "type": "object"
+      },
+      "maxItems": 20000,
+      "minItems": 1,
+      "type": "array"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "snapshotId",
+    "dataVersion",
+    "sourcePatch",
+    "generatedAt",
+    "researchOnly",
+    "published",
+    "weapons",
+    "ammo",
+    "gear",
+    "traits",
+    "skins",
+    "images"
+  ],
+  "type": "object"
+}

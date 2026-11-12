@@ -1,0 +1,63 @@
+{
+  "ammo": {
+    "fields": {
+      "missing": 14,
+      "unverified": 4
+    },
+    "records": 2,
+    "requiredFields": 16,
+    "reviewedRequiredFields": 0,
+    "reviewedRequiredPercent": 0.0
+  },
+  "gear": {
+    "fields": {
+      "missing": 882,
+      "unverified": 206
+    },
+    "records": 68,
+    "requiredFields": 408,
+    "reviewedRequiredFields": 0,
+    "reviewedRequiredPercent": 0.0
+  },
+  "images": {
+    "fields": {
+      "missing": 20,
+      "unverified": 25
+    },
+    "records": 5,
+    "requiredFields": 40,
+    "reviewedRequiredFields": 0,
+    "reviewedRequiredPercent": 0.0
+  },
+  "skins": {
+    "fields": {
+      "missing": 9,
+      "unverified": 3,
+      "verified": 18
+    },
+    "records": 3,
+    "requiredFields": 21,
+    "reviewedRequiredFields": 18,
+    "reviewedRequiredPercent": 85.71
+  },
+  "traits": {
+    "fields": {
+      "missing": 402,
+      "unverified": 313
+    },
+    "records": 65,
+    "requiredFields": 455,
+    "reviewedRequiredFields": 0,
+    "reviewedRequiredPercent": 0.0
+  },
+  "weapons": {
+    "fields": {
+      "missing": 1538,
+      "unverified": 1199
+    },
+    "records": 161,
+    "requiredFields": 1449,
+    "reviewedRequiredFields": 0,
+    "reviewedRequiredPercent": 0.0
+  }
+}

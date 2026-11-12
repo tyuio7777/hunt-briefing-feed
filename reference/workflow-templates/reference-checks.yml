@@ -1,0 +1,29 @@
+# TEMPLATE ONLY. Not installed in .github/workflows; no scheduled job is active.
+name: Reference checks only
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: reference-checks
+  cancel-in-progress: false
+jobs:
+  checks:
+    if: vars.REFERENCE_CHECKS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      # Official action revisions verified when this template was prepared.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9
+        with:
+          dotnet-version: 8.0.x
+      - name: Verify expected repository
+        run: test "$GITHUB_REPOSITORY" = 'tyuio7777/hunt-briefing-feed'
+      - name: Verify isolated reference code
+        working-directory: reference
+        run: |
+          python3 -m pip install -r requirements.txt
+          python3 scripts/check_all.py
+# No write token, publication, production deployment, notification, archive or UI step.

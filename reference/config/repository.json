@@ -1,0 +1,7 @@
+{
+  "repository": "tyuio7777/hunt-briefing-feed",
+  "managedPrefix": "reference/",
+  "publicCatalogRoot": "catalog/v1",
+  "visibility": "public",
+  "existingFeedWritesAllowed": false
+}

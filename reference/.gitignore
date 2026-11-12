@@ -1,0 +1,13 @@
+research/
+reports/detail_gaps.csv
+reports/briefing_baseline.json
+reports/source_probe.json
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+*.tmp
+*.cache.json
+catalog/v1/.release.lock
+*private*.pem
+*signing*.pem

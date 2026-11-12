@@ -1,0 +1,11 @@
+{
+  "allowAiContext": false,
+  "allowImages": false,
+  "allowUi": false,
+  "automaticCollection": false,
+  "automaticPublication": false,
+  "manifestUrl": null,
+  "maxCacheAgeDays": 30,
+  "mode": "disabled",
+  "timeoutSeconds": 4
+}
