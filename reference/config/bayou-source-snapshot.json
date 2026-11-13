@@ -1,0 +1,7 @@
+{
+  "observedAt": "2026-11-13",
+  "sourcePatch": "2.9.1",
+  "gearPageModuleUrl": "https://bayouindex.com/_app/immutable/nodes/21.CXYxuIra.js",
+  "gearDataUrl": "https://bayouindex.com/_app/immutable/chunks/CjdkkVDg.js",
+  "note": "Observed public module imports, not an API. A changed import must be reviewed before reuse. Fetch is opt-in."
+}

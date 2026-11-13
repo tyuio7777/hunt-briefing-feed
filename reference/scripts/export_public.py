@@ -8,9 +8,27 @@ from cryptography.hazmat.primitives import serialization
 
 def collect(root):
     root=Path(root).resolve();selected=set()
-    for pattern in ['README.md','.gitignore','requirements.txt','global.json','config/*.json','schema/*.json','reference_tools/*.py','scripts/*.py','src/Hunt.ReferenceData/*.cs','src/Hunt.ReferenceData/*.csproj','tests/*.py','tests/Hunt.ReferenceData.Tests/*.cs','tests/Hunt.ReferenceData.Tests/*.csproj','docs/*_KO.md','workflow-templates/*.yml','reports/completeness.json','catalog/v1/status.json']:
+    for pattern in ['README.md','.gitignore','requirements*.txt','global.json','config/*.json','schema/*.json','reference_tools/*.py','scripts/*.py','src/Hunt.ReferenceData/*.cs','src/Hunt.ReferenceData/*.csproj','tests/*.py','tests/Hunt.ReferenceData.Tests/*.cs','tests/Hunt.ReferenceData.Tests/*.csproj','docs/*_KO.md','workflow-templates/*.yml','reports/completeness.json','catalog/v1/status.json']:
         selected.update(root.glob(pattern))
     selected.discard(root/'docs/ORIGINAL_REQUEST_KO.md')
+    # Curated numeric facts and original summaries are separate from private raw
+    # research and signed runtime releases. Unknown image rights never ship bytes.
+    allowed={'catalog.json','details.json','evidence.json','coverage.json','image-candidates.json','review-issues.json'}
+    for file in (root/'staging').glob('*/manifest.json'):
+        m=read(file)
+        if m.get('researchOnly') is not True or m.get('published') is not False or m.get('appIntegrationEnabled') is not False:
+            raise ValidationError('staging cannot activate runtime')
+        if set(m.get('files',{}))!=allowed: raise ValidationError('unexpected staging file set')
+        for name,sha in m['files'].items():
+            p=file.parent/name
+            if digest(p.read_bytes())!=sha: raise ValidationError('staging checksum mismatch')
+            selected.add(p)
+        cat=read(file.parent/'catalog.json');validate(cat,evidence=read(file.parent/'evidence.json'))
+        if cat['images']: raise ValidationError('staging image binaries are not approved')
+        for candidate in read(file.parent/'image-candidates.json')['images']:
+            if candidate.get('redistributionApproved') or candidate.get('localFile') or candidate.get('sha256'):
+                raise ValidationError('unapproved staging image')
+        selected.add(file)
     base=root/'catalog/v1';active=base/'active.json'
     if active.exists():
         keypath=root/'config/trusted-public-key.pem';key=serialization.load_pem_public_key(keypath.read_bytes());selected.add(keypath)
@@ -43,3 +61,4 @@ def export(root,destination):
     return [str(file.relative_to(root)) for file in files]
 if __name__=='__main__':
     files=export(ROOT,sys.argv[1]);print(json.dumps({'files':files,'count':len(files),'containsResearch':False},ensure_ascii=False,indent=2))
+

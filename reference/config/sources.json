@@ -1,17 +1,19 @@
 {
   "bayou-index": {
-    "apiStatus": "not_confirmed",
-    "bulkCollectionApproved": false,
-    "checkedAt": "2026-11-12",
+    "apiStatus": "no_public_api_static_pages",
+    "bulkCollectionApproved": true,
+    "checkedAt": "2026-11-13",
     "dataRedistributionApproved": false,
     "imageRedistributionApproved": false,
     "indexUrl": "https://bayouindex.com/",
     "monitoringApproved": false,
     "name": "Bayou Index",
-    "notes": "About page says unofficial fan reference and attributes game assets to Crytek; no reusable data/API license was confirmed. robots.txt could not be read in this check.",
+    "notes": "robots.txt allows public reference pages including AI crawlers. 294 current detail pages and observed public gear module were inspected. Numeric facts and original Korean summaries are stored in staging. This is not image/data redistribution permission; both runtime release rights flags remain false. Raw HTML/JS, skin lore and image bytes are not committed.",
     "permissionEvidenceUrl": null,
     "policyUrl": "https://bayouindex.com/about/",
-    "role": "reference_only"
+    "role": "reference_only",
+    "collectionEvidenceUrl": "https://bayouindex.com/robots.txt",
+    "collectionScope": "User-authorized one-off public roster research; no scheduled crawl"
   },
   "steam-crytek": {
     "apiStatus": "not_confirmed",

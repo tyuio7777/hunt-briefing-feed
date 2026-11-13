@@ -1,63 +1,59 @@
 {
   "ammo": {
     "fields": {
-      "missing": 14,
-      "unverified": 4
+      "missing": 1092,
+      "verified": 3552
     },
-    "records": 2,
-    "requiredFields": 16,
-    "reviewedRequiredFields": 0,
-    "reviewedRequiredPercent": 0.0
+    "records": 516,
+    "requiredFields": 4128,
+    "reviewedRequiredFields": 3552,
+    "reviewedRequiredPercent": 86.05
   },
   "gear": {
     "fields": {
-      "missing": 882,
-      "unverified": 206
+      "missing": 710,
+      "verified": 378
     },
     "records": 68,
     "requiredFields": 408,
-    "reviewedRequiredFields": 0,
-    "reviewedRequiredPercent": 0.0
+    "reviewedRequiredFields": 269,
+    "reviewedRequiredPercent": 65.93
   },
   "images": {
-    "fields": {
-      "missing": 20,
-      "unverified": 25
-    },
-    "records": 5,
-    "requiredFields": 40,
+    "fields": {},
+    "records": 0,
+    "requiredFields": 0,
     "reviewedRequiredFields": 0,
-    "reviewedRequiredPercent": 0.0
+    "reviewedRequiredPercent": null
   },
   "skins": {
     "fields": {
-      "missing": 9,
-      "unverified": 3,
-      "verified": 18
+      "missing": 3541,
+      "verified": 4619
     },
-    "records": 3,
-    "requiredFields": 21,
-    "reviewedRequiredFields": 18,
-    "reviewedRequiredPercent": 85.71
+    "records": 816,
+    "requiredFields": 5712,
+    "reviewedRequiredFields": 3803,
+    "reviewedRequiredPercent": 66.58
   },
   "traits": {
     "fields": {
-      "missing": 402,
-      "unverified": 313
+      "missing": 322,
+      "verified": 393
     },
     "records": 65,
     "requiredFields": 455,
-    "reviewedRequiredFields": 0,
-    "reviewedRequiredPercent": 0.0
+    "reviewedRequiredFields": 374,
+    "reviewedRequiredPercent": 82.2
   },
   "weapons": {
     "fields": {
-      "missing": 1538,
-      "unverified": 1199
+      "missing": 752,
+      "verified": 1985
     },
     "records": 161,
     "requiredFields": 1449,
-    "reviewedRequiredFields": 0,
-    "reviewedRequiredPercent": 0.0
+    "reviewedRequiredFields": 1374,
+    "reviewedRequiredPercent": 94.82
   }
 }

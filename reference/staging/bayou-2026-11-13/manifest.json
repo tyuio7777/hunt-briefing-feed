@@ -1,0 +1,31 @@
+{
+  "appIntegrationEnabled": false,
+  "catalogSha256": "b9d972cc75e41755dc3d33bc4f704cb021a112c3fe466baaf5341df15a8d7f08",
+  "counts": {
+    "ammo": 516,
+    "gear": 68,
+    "images": 0,
+    "skins": 816,
+    "traits": 65,
+    "weapons": 161
+  },
+  "dataVersion": "0.4.0-research.20261113",
+  "files": {
+    "catalog.json": "b9d972cc75e41755dc3d33bc4f704cb021a112c3fe466baaf5341df15a8d7f08",
+    "coverage.json": "bea51f82b8d5040d43a56b5c9cfcc16af3bc818d4d8ee09d208fff67050602e5",
+    "details.json": "0da912051e861c4dccbb7f937476c0908303c13f468279da1765fb2e91b42388",
+    "evidence.json": "de2711d67fe1f262e1de4f35606b40e66a1ba72b50f8df68a994166b211ae8c5",
+    "image-candidates.json": "9ccccc75dfcb6c5be1bd0c5f820768dacb3f5041b937ab5783f6fc91f8ddc01c",
+    "review-issues.json": "7d62b159b11ed1815ebf607e98b633251918a315410604dedc4ec3a8fddf8d1a"
+  },
+  "gearBundleGeneratedAt": "2026-11-03",
+  "gearBundleSha256": "72ea9af37d3387fa70aadfb11cdc5667008ef0ec31d6d1df0bc2282dbf9c2553",
+  "imageCandidates": 1626,
+  "observedAt": "2026-11-13",
+  "published": false,
+  "researchOnly": true,
+  "schemaVersion": "reference-staging-1",
+  "sourcePages": 294,
+  "sourcePatch": "2.9.1",
+  "verification": "source_observed_not_independently_game_verified"
+}

@@ -1,49 +1,39 @@
 # Hunt Briefing Reference Data
 
-기존 `tyuio7777/hunt-briefing-feed` 저장소의 **`reference/` 전용 영역**입니다. 2026-11-13 사용자 지시에 따라 별도 저장소 대신 이 폴더에 구축했습니다. 기존 브리핑 조사·생성·검증·게시 코드와 `feed/latest.json`, `feed/index.json`은 수정하지 않습니다.
+기존 `hunt-briefing-feed`의 **`reference/` 전용 영역**입니다. 기존 조사·생성·검증·게시, 피드 JSON, 푸시, 아카이브와 연결하지 않습니다.
 
-현재 상태는 **기반 구축 완료 / 상세 데이터 및 권한 검수 대기 / 앱 연동 OFF**입니다. `catalog/v1/status.json`만 제공하며 운영용 `active.json`은 없습니다. 빈 카탈로그를 완성된 데이터처럼 배포하지 않습니다.
+## 현재 상태 — 2026-11-13
 
-## 구성
+Bayou Index 2.9.1의 공개 상세 페이지 294개와 공개 장비 데이터 모듈을 조사해 **실제 데이터 보강본**을 저장했습니다. 기존 이름 목록만 있던 상태에서 가격·무기 수치·탄약 조합·효과 설명·특성 포인트·스킨 관계를 추가했습니다.
 
-| 경로 (`reference/` 기준) | 용도 |
-|---|---|
-| `catalog/v1/status.json` | 비활성 배포 상태. 게임 데이터 없음 |
-| `schema/catalog-v1.schema.json` | 무기·탄약·도구/소모품·특성·스킨·이미지 스키마 |
-| `config/` | 기능 OFF, 출처 정책, 공개 검수 게이트 |
-| `reference_tools/`, `scripts/` | 정규화·검증·변경 비교·서명 배포·롤백·공개 파일 선별 |
-| `src/Hunt.ReferenceData/` | .NET 8 읽기 전용 클라이언트. MAUI 앱에는 아직 연결하지 않음 |
-| `tests/` | 합성 데이터 기반 테스트. 실제 게임 수치와 운영 서명키 없음 |
-| `docs/` | 배포·데이터 보강·검증·연동 지침 |
-| `workflow-templates/` | 향후 별도 검증용 템플릿. 자동 실행되는 `.github/workflows`에는 설치하지 않음 |
+- [검토용 데이터](staging/bayou-2026-11-13/catalog.json): 무기 목록 161, 무기별 탄약 조합 516, 장비 68, 특성 65, 스킨 816.
+- [상세 수치와 보조 정보](staging/bayou-2026-11-13/details.json): 카드 수치와 계산 수치, 탄약 변경값, 보조 총열, 습득 경로, 관련 특성, 스킨 가격.
+- [이미지 후보](staging/bayou-2026-11-13/image-candidates.json): 출처 URL 1,626개. 사용권 미확인, 파일 다운로드·배포·자동 로딩 0개.
+- [필드 충족 현황](staging/bayou-2026-11-13/coverage.json), [충돌·수치 기준 차이](staging/bayou-2026-11-13/review-issues.json), [필드별 증거](staging/bayou-2026-11-13/evidence.json).
 
-`research/`의 원본·정규화 초안·이미지 후보와 필드별 누락표는 공개 Git에 넣지 않습니다. 공개 브랜치에 올린 후 삭제해도 이력에 남으므로 **공개 전 파일 선별**을 적용합니다. 원본 연구자료는 별도 전달 파일에서 로컬 `reference/research/`에 복원하여 사용합니다.
+**운영 연동 OFF**입니다. `catalog/v1/active.json`을 만들지 않았고 서명 배포·자동 수집·뉴스 카드 생성도 하지 않습니다. `published:false`는 앱 운영 배포가 아니라는 뜻입니다. 검토용 사실 스냅샷은 이 공개 Git 폴더에서 개발자가 확인할 수 있습니다.
 
-## 검증 실행
+`verified`는 **해당 출처에서 확인한 값**이라는 기존 스키마 상태입니다. 모든 항목을 게임에서 독립 검증했다는 뜻이 아닙니다. 원문 안의 충돌, 사용권, 게임 내 교차검증은 별도 검수 대상입니다. 미확인 값은 `null`이며 무료·효과 없음·호환 불가로 바꾸지 않습니다.
 
-저장소를 받은 뒤 `reference/` 디렉터리에서 실행합니다. Python 3.11+ / .NET 8 SDK가 필요합니다.
+## 재현과 검증
 
 ```sh
-python -m pip install -r requirements.txt
-python scripts/check_all.py
+python -m pip install -r requirements-research.txt
+python scripts/fetch_bayou.py --fetch --cache /tmp/hunt-bayou-2026-11-13
+python scripts/enrich_bayou.py --cache /tmp/hunt-bayou-2026-11-13 --output staging/bayou-2026-11-13
+python -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-실제 연구자료가 로컬에 있을 때만 다음을 실행합니다. 없으면 기본 테스트에서 연구자료 전용 검사 1건만 건너뜁니다.
+수집은 명시적인 `--fetch` 없이는 실행되지 않습니다. 현재 목록만 읽으며, 공개 모듈 경로가 바뀌면 중단하고 검토를 요구합니다. 원본 HTML·JS와 이미지 바이트는 Git에 넣지 않습니다. 파서는 원문 JavaScript를 실행하지 않습니다. 숫자와 한국어 기능 요약만 선별하며 스킨 서사 원문을 복제하지 않습니다.
 
-```sh
-python scripts/catalog.py --build
-python scripts/release.py check
-```
+기존 `.NET` 검증은 SDK가 있는 환경에서 `python scripts/check_all.py`로 실행합니다. 운영 배포는 기존 권한·필드 검수·해시 승인·서명 절차를 모두 통과해야 하며 현재 `release.py check`는 차단됩니다.
 
-현재 공개 승인 검사 `release.py check`는 **차단되는 것이 정상**입니다. 출처별 허가, 상세값·호환관계 검수, 정확한 스냅샷 해시 승인, 운영 서명키가 준비되기 전에는 게시할 수 없습니다.
+## 경계와 후속
 
-## 기존 시스템과의 경계
+- 기존 `latest.json`, `index.json`, 워크플로, 브리핑 화면은 변경하지 않습니다.
+- `staging/`을 앱이나 피드의 자동 탐색 경로로 등록하지 않습니다.
+- `research/`에는 원본 연구자료를 보관하며 공개 내보내기에서 제외합니다. `staging/`은 해시 검증한 사실 보강본만 별도로 선별합니다.
+- 무기 인덱스의 도구 11종은 기존 ID를 보존하되 `details.inventoryDomain=gear`와 정식 장비 ID로 구분했습니다.
+- 원본 데이터에서 얻은 `unlockRank`는 참고값으로만 보관하며 현재 게임의 해금 조건으로 확정하지 않습니다.
 
-- 이 폴더를 기존 피드 스캔/수집 경로에 추가하지 않습니다.
-- Bayou Index 등록은 `reference_only`. 뉴스 항목·카드·섹션 생성은 없습니다.
-- 기본 설정 `mode=disabled`, AI 컨텍스트·UI·이미지·자동 수집·자동 공개 모두 OFF.
-- Disabled는 네트워크와 디스크 캐시도 읽지 않습니다. Shadow는 검증 상태만 반환하고 데이터 검색 결과를 노출하지 않습니다.
-- 활성화 시에도 별도 프로세스/작업에서 실행하며 기존 발행 성공 여부와 결합하지 않습니다.
-- 기존 서버리스·푸시·아카이브 실서비스 회귀 테스트는 별도 환경에서 필요합니다. 로컬 장애 테스트를 실서비스 회귀 성공으로 간주하지 않습니다.
-
-자세한 내용: [배포](docs/DEPLOYMENT_KO.md), [연동](docs/INTEGRATION_KO.md), [상세 보강/권한](docs/DATA_REVIEW_KO.md), [테스트 결과](docs/VALIDATION_KO.md).
+[데이터 검수](docs/DATA_REVIEW_KO.md) · [로드아웃 페이지 후속 항목](docs/LOADOUT_DATA_FOLLOWUP_KO.md) · [배포](docs/DEPLOYMENT_KO.md) · [연동](docs/INTEGRATION_KO.md) · [검증](docs/VALIDATION_KO.md)

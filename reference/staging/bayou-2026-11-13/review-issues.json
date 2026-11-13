@@ -1,0 +1,584 @@
+[
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-burgess",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/burgess/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-burgess-bayonet",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/burgess-bayonet/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-burgess-trauma",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/burgess-trauma/"
+  },
+  {
+    "bayouDisplay": 117,
+    "field": "damage",
+    "id": "weapon-long-derringer",
+    "inGameCard": 116,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/long-derringer/"
+  },
+  {
+    "bayouDisplay": 146,
+    "field": "damage",
+    "id": "weapon-1865-carbine",
+    "inGameCard": 145,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/1865-carbine/"
+  },
+  {
+    "bayouDisplay": 146,
+    "field": "damage",
+    "id": "weapon-1865-carbine-aperture",
+    "inGameCard": 145,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/1865-carbine-aperture/"
+  },
+  {
+    "bayouDisplay": 138,
+    "field": "damage",
+    "id": "weapon-1865-carbine-silencer",
+    "inGameCard": 137,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/1865-carbine-silencer/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-berthier-1892",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/berthier-1892/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-berthier-1892-deadeye",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/berthier-1892-deadeye/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-berthier-1892-marksman",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/berthier-1892-marksman/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-berthier-1892-riposte",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/berthier-1892-riposte/"
+  },
+  {
+    "bayouDisplay": 121,
+    "field": "damage",
+    "id": "weapon-centennial-pointman",
+    "inGameCard": 120,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/centennial-pointman/"
+  },
+  {
+    "bayouDisplay": 121,
+    "field": "damage",
+    "id": "weapon-centennial-shorty",
+    "inGameCard": 120,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/centennial-shorty/"
+  },
+  {
+    "field": "effects",
+    "id": "ammo-drilling-dragon-breath-secondary",
+    "kind": "name_description_conflict",
+    "resolution": "kept_null",
+    "sourceUrl": "https://bayouindex.com/weapons/drilling/"
+  },
+  {
+    "bayouDisplay": 121,
+    "field": "damage",
+    "id": "weapon-drilling",
+    "inGameCard": 120,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/drilling/"
+  },
+  {
+    "field": "effects",
+    "id": "ammo-drilling-hatchet-dragon-breath-secondary",
+    "kind": "name_description_conflict",
+    "resolution": "kept_null",
+    "sourceUrl": "https://bayouindex.com/weapons/drilling-hatchet/"
+  },
+  {
+    "field": "effects",
+    "id": "ammo-drilling-shorty-dragon-breath-secondary",
+    "kind": "name_description_conflict",
+    "resolution": "kept_null",
+    "sourceUrl": "https://bayouindex.com/weapons/drilling-shorty/"
+  },
+  {
+    "bayouDisplay": null,
+    "field": "damage",
+    "id": "weapon-flame-rifle",
+    "inGameCard": 25,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/flame-rifle/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-vandal-73c",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/vandal-73c/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-vandal-73c-bullseye",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/vandal-73c-bullseye/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-vandal-73c-striker",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/vandal-73c-striker/"
+  },
+  {
+    "bayouDisplay": 133,
+    "field": "damage",
+    "id": "weapon-lebel-1886",
+    "inGameCard": 132,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lebel-1886/"
+  },
+  {
+    "bayouDisplay": 133,
+    "field": "damage",
+    "id": "weapon-lebel-1886-aperture",
+    "inGameCard": 132,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lebel-1886-aperture/"
+  },
+  {
+    "bayouDisplay": 133,
+    "field": "damage",
+    "id": "weapon-lebel-1886-marksman",
+    "inGameCard": 132,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lebel-1886-marksman/"
+  },
+  {
+    "bayouDisplay": 133,
+    "field": "damage",
+    "id": "weapon-lebel-1886-talon",
+    "inGameCard": 132,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lebel-1886-talon/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-lemat-carbine",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lemat-carbine/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-lemat-carbine-marksman",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/lemat-carbine-marksman/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-mako-1895",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/mako-1895/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-mako-1895-aperture",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/mako-1895-aperture/"
+  },
+  {
+    "bayouDisplay": 129,
+    "field": "damage",
+    "id": "weapon-mako-1895-claw",
+    "inGameCard": 128,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/mako-1895-claw/"
+  },
+  {
+    "bayouDisplay": 134,
+    "field": "damage",
+    "id": "weapon-sparks-silencer",
+    "inGameCard": 133,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/sparks-silencer/"
+  },
+  {
+    "bayouDisplay": 134,
+    "field": "damage",
+    "id": "weapon-sparks-pistol-silencer",
+    "inGameCard": 133,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/sparks-pistol-silencer/"
+  },
+  {
+    "bayouDisplay": 121,
+    "field": "damage",
+    "id": "weapon-vetterli-71-cyclone",
+    "inGameCard": 120,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/vetterli-71-cyclone/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-auto-4-shorty",
+    "inGameCard": 154,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/auto-4-shorty/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-auto-5",
+    "inGameCard": 194,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/auto-5/"
+  },
+  {
+    "bayouDisplay": 255,
+    "field": "damage",
+    "id": "weapon-homestead-78",
+    "inGameCard": 220,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/homestead-78/"
+  },
+  {
+    "bayouDisplay": 255,
+    "field": "damage",
+    "id": "weapon-rival-78",
+    "inGameCard": 184,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/rival-78/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-rival-78-mace",
+    "inGameCard": 158,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/rival-78-mace/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-rival-78-shorty",
+    "inGameCard": 158,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/rival-78-shorty/"
+  },
+  {
+    "bayouDisplay": 255,
+    "field": "damage",
+    "id": "weapon-rival-78-trauma",
+    "inGameCard": 184,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/rival-78-trauma/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-romero-77",
+    "inGameCard": 220,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/romero-77/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-romero-77-alamo",
+    "inGameCard": 220,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/romero-77-alamo/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-romero-77-hatchet",
+    "inGameCard": 214,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/romero-77-hatchet/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-romero-77-shorty",
+    "inGameCard": 214,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/romero-77-shorty/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-romero-77-talon",
+    "inGameCard": 220,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/romero-77-talon/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-slate",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/slate/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-slate-riposte",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/slate-riposte/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-specter-1882",
+    "inGameCard": 213,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/specter-1882/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-specter-1882-bayonet",
+    "inGameCard": 204,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/specter-1882-bayonet/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-specter-1882-shorty",
+    "inGameCard": 178,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/specter-1882-shorty/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-terminus",
+    "inGameCard": 207,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/terminus/"
+  },
+  {
+    "bayouDisplay": 240,
+    "field": "damage",
+    "id": "weapon-terminus-shorty",
+    "inGameCard": 188,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/terminus-shorty/"
+  },
+  {
+    "bayouDisplay": 81,
+    "field": "damage",
+    "id": "weapon-bornheim-no-3-match",
+    "inGameCard": 80,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/bornheim-no-3-match/"
+  },
+  {
+    "bayouDisplay": 95,
+    "field": "damage",
+    "id": "weapon-derringer-pennyshot",
+    "inGameCard": 21,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/derringer-pennyshot/"
+  },
+  {
+    "bayouDisplay": 65,
+    "field": "damage",
+    "id": "weapon-quad-derringer",
+    "inGameCard": 74,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/quad-derringer/"
+  },
+  {
+    "bayouDisplay": null,
+    "field": "damage",
+    "id": "weapon-flare-pistol",
+    "inGameCard": 26,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/flare-pistol/"
+  },
+  {
+    "bayouDisplay": 86,
+    "field": "damage",
+    "id": "weapon-nagant-m1895-silencer",
+    "inGameCard": 85,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/nagant-m1895-silencer/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-scottfield",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/scottfield/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-scottfield-brawler",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/scottfield-brawler/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-scottfield-precision",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/scottfield-precision/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-scottfield-spitfire",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/scottfield-spitfire/"
+  },
+  {
+    "bayouDisplay": 108,
+    "field": "damage",
+    "id": "weapon-scottfield-swift",
+    "inGameCard": 107,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/scottfield-swift/"
+  },
+  {
+    "bayouDisplay": null,
+    "field": "damage",
+    "id": "weapon-bomb-lance",
+    "inGameCard": 150,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/bomb-lance/"
+  },
+  {
+    "bayouDisplay": null,
+    "field": "damage",
+    "id": "weapon-bomb-launcher",
+    "inGameCard": 150,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/bomb-launcher/"
+  },
+  {
+    "bayouDisplay": 151,
+    "field": "damage",
+    "id": "weapon-chu-ko-nu",
+    "inGameCard": 150,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/chu-ko-nu/"
+  },
+  {
+    "bayouDisplay": 247,
+    "field": "damage",
+    "id": "weapon-crossbow",
+    "inGameCard": 246,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/crossbow/"
+  },
+  {
+    "bayouDisplay": 247,
+    "field": "damage",
+    "id": "weapon-crossbow-deadeye",
+    "inGameCard": 246,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/crossbow-deadeye/"
+  },
+  {
+    "bayouDisplay": 208,
+    "field": "damage",
+    "id": "weapon-hand-crossbow",
+    "inGameCard": 205,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/hand-crossbow/"
+  },
+  {
+    "bayouDisplay": 225,
+    "field": "damage",
+    "id": "weapon-shredder",
+    "inGameCard": 300,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/shredder/"
+  },
+  {
+    "bayouDisplay": null,
+    "field": "damage",
+    "id": "weapon-throwing-axes",
+    "inGameCard": 162,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/throwing-axes/"
+  },
+  {
+    "bayouDisplay": 151,
+    "field": "damage",
+    "id": "weapon-throwing-knives",
+    "inGameCard": 150,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/throwing-knives/"
+  },
+  {
+    "bayouDisplay": 260,
+    "field": "damage",
+    "id": "weapon-throwing-spear",
+    "inGameCard": 200,
+    "kind": "different_measurement_basis",
+    "sourceUrl": "https://bayouindex.com/weapons/throwing-spear/"
+  },
+  {
+    "cardSeconds": 15,
+    "descriptionSeconds": 30,
+    "field": "durationSeconds",
+    "id": "gear-the-high-priestess",
+    "kind": "source_conflict",
+    "resolution": "kept_null",
+    "sourceUrl": "https://bayouindex.com/gear/the-high-priestess/"
+  }
+]

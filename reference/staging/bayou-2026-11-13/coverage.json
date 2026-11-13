@@ -1,0 +1,104 @@
+{
+  "ammo": {
+    "fields": {
+      "damage": 489,
+      "dropMeters": 492,
+      "effects": 513,
+      "imageAssetId": 0,
+      "nameEn": 516,
+      "priceHuntDollars": 510,
+      "slots": 0,
+      "velocityMps": 516,
+      "weaponId": 516
+    },
+    "records": 516
+  },
+  "gear": {
+    "fields": {
+      "damage": 27,
+      "durationSeconds": 19,
+      "effect": 68,
+      "heavyDamage": 12,
+      "heavyStamina": 7,
+      "imageAssetId": 0,
+      "kind": 68,
+      "lightDamage": 12,
+      "lightStamina": 7,
+      "nameEn": 68,
+      "nameKo": 0,
+      "packCount": 13,
+      "priceHuntDollars": 52,
+      "rangeMeters": 25,
+      "reachMeters": 0,
+      "unlockCondition": 0
+    },
+    "records": 68
+  },
+  "images": {
+    "fields": {
+      "attribution": 0,
+      "candidateUrl": 0,
+      "licenseEvidenceUrl": 0,
+      "licenseStatus": 0,
+      "localFile": 0,
+      "nameEn": 0,
+      "redistributionApproved": 0,
+      "relatedId": 0,
+      "sha256": 0
+    },
+    "records": 0
+  },
+  "skins": {
+    "fields": {
+      "acquisition": 564,
+      "availability": 0,
+      "baseItemId": 816,
+      "baseItemName": 816,
+      "eventOrDlc": 533,
+      "imageAssetId": 0,
+      "kind": 816,
+      "nameEn": 816,
+      "nameKo": 0,
+      "releaseDate": 258
+    },
+    "records": 816
+  },
+  "traits": {
+    "fields": {
+      "acquisition": 63,
+      "category": 65,
+      "conditions": 0,
+      "costPoints": 51,
+      "effectKo": 65,
+      "effectStructured": 0,
+      "equipmentIds": 19,
+      "flags": 65,
+      "imageAssetId": 0,
+      "nameEn": 65,
+      "nameKo": 0
+    },
+    "records": 65
+  },
+  "weapons": {
+    "fields": {
+      "ammoClass": 147,
+      "capacity": 151,
+      "customAmmoCoverage": 161,
+      "customAmmoIds": 161,
+      "cycleSeconds": 147,
+      "damage": 150,
+      "dropMeters": 151,
+      "imageAssetId": 0,
+      "nameEn": 161,
+      "nameKo": 0,
+      "priceHuntDollars": 157,
+      "reloadSeconds": 148,
+      "reserveAmmo": 151,
+      "slots": 150,
+      "unlockCondition": 0,
+      "variantOfId": 0,
+      "velocityMps": 150
+    },
+    "records": 161
+  }
+}

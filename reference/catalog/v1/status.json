@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "state": "awaiting_verified_data_and_rights",
+  "state": "source_observations_enriched_pending_game_and_rights_review",
   "published": false,
   "appIntegrationEnabled": false,
   "activeSnapshot": null
