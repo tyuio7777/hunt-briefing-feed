@@ -8,7 +8,7 @@ Bayou Index 2.9.1의 공개 상세 페이지 294개와 공개 장비 데이터 �
 
 - [검토용 데이터](staging/bayou-2026-11-13/catalog.json): 무기 목록 161, 무기별 탄약 조합 516, 장비 68, 특성 65, 스킨 816.
 - [상세 수치와 보조 정보](staging/bayou-2026-11-13/details.json): 카드 수치와 계산 수치, 탄약 변경값, 보조 총열, 습득 경로, 관련 특성, 스킨 가격.
-- [이미지 후보](staging/bayou-2026-11-13/image-candidates.json): 출처 URL 1,626개. 사용권 미확인, 파일 다운로드·배포·자동 로딩 0개.
+- [이미지 후보](staging/bayou-2026-11-13/image-candidates.json): 항목별 이미지 연결 1,626건(고유 URL 1,197개). 사용권 미확인, 파일 다운로드·배포·자동 로딩 0개.
 - [필드 충족 현황](staging/bayou-2026-11-13/coverage.json), [충돌·수치 기준 차이](staging/bayou-2026-11-13/review-issues.json), [필드별 증거](staging/bayou-2026-11-13/evidence.json).
 
 **운영 연동 OFF**입니다. `catalog/v1/active.json`을 만들지 않았고 서명 배포·자동 수집·뉴스 카드 생성도 하지 않습니다. `published:false`는 앱 운영 배포가 아니라는 뜻입니다. 검토용 사실 스냅샷은 이 공개 Git 폴더에서 개발자가 확인할 수 있습니다.
