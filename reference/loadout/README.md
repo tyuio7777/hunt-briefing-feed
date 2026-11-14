@@ -23,3 +23,23 @@ python reference/scripts/publish_loadout.py --catalog /tmp/reviewed-catalog.json
 `NEXT`는 현재 sequence+1입니다. 스냅샷은 UTF-8 JSON이며 SHA-256으로 파일명/manifest가 연결됩니다. HTTPS와 지정 저장소를 신뢰 경계로 사용하며, 이 해시는 전자서명이 아닙니다. 앱은 해시·형식·관계·시퀀스를 검증한 뒤 캐시 파일 하나를 원자적으로 교체합니다. 실패 시 마지막 정상 캐시, 캐시도 없으면 앱 내 자료를 사용합니다.
 
 `fieldReviews.status=verified`는 해당 출처에서 확인한 값이라는 뜻이며 게임 전체의 독립 검증 완료를 의미하지 않습니다. 이 구분과 출처 메타데이터를 유지합니다.
+
+## Range guidance adapter (2026-11-15)
+
+The loadout catalog now carries `falloffCurve` for reviewed source observations and
+`weaponType` for weapon-specific explanatory caveats. These are from the existing
+2026-11-13 observation set; this release does not claim a new in-game measurement.
+The publisher rejects nonmonotone, non-finite and out-of-bounds curves. Missing
+secondary-barrel curves remain null; never substitute the primary barrel curve.
+
+The app's editorial range labels interpolate the observed projectile curve at
+75% (effective guidance) and 50% (limited guidance) of original damage. These are
+not official effective-range or guaranteed-kill claims. Bullet-drop start is
+never used as damage falloff. Explosion, status damage, pellet hit count and
+body-zone multipliers are not included in this guidance.
+
+For every future changed source snapshot, assign a new catalog dataVersion and
+publish a strictly increasing sequence. Keep these fields when rebuilding with
+`build_loadout.py`; do not retain old curves when a source observation changes.
+A future rules bundle may specify integer `minimumEditorVersion` > 1 to make the
+current editor read-only; ordinary patch/version changes must remain editable.

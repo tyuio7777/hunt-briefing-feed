@@ -15,7 +15,7 @@ out = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(__file__).resolve().paren
 raw = json.loads((src / 'catalog.json').read_text())
 details = json.loads((src / 'details.json').read_text())['items']
 catalog = {k: copy.deepcopy(raw[k]) for k in ['weapons', 'ammo', 'gear', 'traits', 'skins']}
-catalog.update(schemaVersion='1.0.0', dataVersion='loadout-20261114-r2', sourcePatch=raw['sourcePatch'], researchOnly=True, published=False, images=[])
+catalog.update(schemaVersion='1.0.0', dataVersion='loadout-20261115-r1', sourcePatch=raw['sourcePatch'], researchOnly=True, published=False, images=[])
 catalog['weapons'] = [i for i in catalog['weapons'] if details[i['id']]['inventoryDomain'] == 'weapons']
 # Skins are not part of this calculation patch; retain the three original IDs.
 catalog['skins'] = [i for i in catalog['skins'] if i['id'] in {'skin-the-primrose', 'skin-skin-deep', 'skin-skin-deep-silencer'}]
@@ -24,6 +24,14 @@ all_items = {i['id']: i for g in ['weapons','ammo','gear','traits','skins'] for 
 def put(item, key, value, source=None):
     item['values'][key] = value
     item['fieldReviews'][key] = {'status': 'verified' if value is not None else 'missing', 'sourceUrl': source or details[item['id']]['sourceUrl'], 'observedAt': '2026-11-13', 'sourcePatch': raw['sourcePatch'], 'sourceId': 'bayou-index', 'evidenceId': 'offline-adapter-source-observation'}
+
+def range_curve(d):
+    curve=d.get('falloffCurve')
+    if not isinstance(curve,list) or not 2<=len(curve)<=32:return None
+    for i,p in enumerate(curve):
+        if not isinstance(p,list) or len(p)!=2 or not all(type(v) in (int,float) for v in p) or p[0]<0 or not 0<=p[1]<=1:return None
+        if i and (p[0]<=curve[i-1][0] or p[1]>curve[i-1][1]):return None
+    return curve
 
 def effect(item, effects):
     put(item, 'effectStructured', {'effects': effects})
@@ -35,6 +43,8 @@ for w in catalog['weapons']:
     d = details[w['id']]
     n = d['customAmmoSlots']
     put(w, 'ammoSlotCount', n)
+    put(w, 'weaponType', d.get('weaponType'))
+    put(w, 'falloffCurve', range_curve(d))
     put(w, 'ammoLayout', 'barrels' if d['alternateBarrel'] else 'pools')
     put(w, 'descriptionKo', d['descriptionKo'])
     put(w, 'role', 'melee' if d['weaponType']=='Melee' else 'ranged')
@@ -51,6 +61,7 @@ for w in catalog['weapons']:
 for a in catalog['ammo']:
     d = details[a['id']]
     put(a, 'ammoChamber', d['chamber'])
+    put(a, 'falloffCurve', range_curve(d))
     put(a, 'capacity', d.get('ammoCounts',{}).get('ammoLoaded'))
     put(a, 'reserveAmmo', d.get('ammoCounts',{}).get('ammoReserve'))
     put(a, 'damageBasis', 'variable_card' if d.get('damageCardKey')=='Variable Damage' else 'card')

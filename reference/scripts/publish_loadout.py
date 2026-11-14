@@ -14,6 +14,11 @@ def validate_fields(values):
    assert isinstance(value,list) and all(isinstance(x,str) and re.fullmatch('[a-z][a-z0-9-]{0,119}',x) for x in value)
   if key in ('capacity','reserveAmmo','packCount','slots','ammoSlotCount','costPoints'):
    assert type(value) is int and 0<=value<=10000
+  if key=='falloffCurve':
+   assert isinstance(value,list) and 2<=len(value)<=32
+   for i,p in enumerate(value):
+    assert isinstance(p,list) and len(p)==2 and all(type(v) in (int,float) for v in p) and 0<=p[0]<1e12 and 0<=p[1]<=1
+    if i:assert p[0]>value[i-1][0] and p[1]<=value[i-1][1]
   if key=='secondaryStats':
    assert isinstance(value,dict) and all(v is None or type(v) in (int,float) and 0<=v<1e12 for v in value.values())
   if key=='effectStructured':
@@ -33,6 +38,7 @@ def validate_effect(effect):
 def validate(c,r):
  assert c['schemaVersion']=='1.0.0' and c['dataVersion']
  assert r['schemaVersion']==1 and r['weaponPositions']==2 and r['equipmentSlots']==8 and 1<=r['baseWeaponCapacity']<=10
+ if 'minimumEditorVersion' in r:assert type(r['minimumEditorVersion']) is int and r['minimumEditorVersion']>=1
  ids={}
  for domain in DOMAINS:
   assert isinstance(c[domain],list) and len(c[domain])<=5000
