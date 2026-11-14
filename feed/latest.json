@@ -1,14 +1,13 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-09T09:00:00+09:00",
+  "updated_at": "2026-11-14T09:00:00+09:00",
   "status": "ready",
   "issue": {
-    "id": "2026-11-09",
-    "title": "공식 4건 · 커뮤니티 7건 · 루머 2건",
-    "subtitle": "As the Crow Carves 공개 · Twitch Drops 마지막 날 · Reap the Harvest 일정 대기",
-    "published_at": "2026-11-09T09:00:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-09.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-09.html",
-    "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/ee23d0f7d8b356c0c96ad0a0be80f44ac4708000.jpg"
+    "id": "2026-11-14",
+    "title": "공식 3건 · 커뮤니티 7건 · 루머 2건",
+    "subtitle": "Reap the Harvest 일정 공백 · 11월 13일 빌드 신호 · Lancaster 대기 여론",
+    "published_at": "2026-11-14T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-14.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-14.html"
   }
 }
