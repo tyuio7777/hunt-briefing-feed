@@ -1,3 +1,5 @@
+> 2026-11-14: 로드아웃 전용 내부 데이터 배포를 `reference/loadout/v1/active.json`에서 제공합니다. 페이지 진입·새로고침만 사용하며 기존 브리핑 피드에는 연동하지 않습니다. 사용자 로드아웃 AI 분석은 추가하지 않습니다. 아래 11월 13일의 OFF 설명은 기존 `catalog/v1` 서명 배포 경로에 관한 기록입니다. [운영 방식](loadout/README.md)
+
 # Hunt Briefing Reference Data
 
 기존 `hunt-briefing-feed`의 **`reference/` 전용 영역**입니다. 기존 조사·생성·검증·게시, 피드 JSON, 푸시, 아카이브와 연결하지 않습니다.

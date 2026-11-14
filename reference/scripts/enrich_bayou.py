@@ -13,7 +13,7 @@ from scripts.fetch_bayou import ORIGIN, cache_name, roster_links
 
 DATE='2026-11-13'
 PATCH='2.9.1'
-VERSION='0.4.0-research.20261113'
+VERSION='0.4.1-research.20261114'
 ROOT=Path(__file__).resolve().parents[1]
 
 def build(cache, output):
@@ -90,7 +90,8 @@ def build(cache, output):
                 aid=stable_id('ammo',name+'-'+an_display);ammo_ids.append(aid)
                 delta=a.get('stats') or {};ballistics=a.get('ballistics') or {}
                 # Only card-to-card deltas are added. Display damage is a different model.
-                base_card=card if chamber=='primary' else {}
+                base_card=card # Both source override arrays store deltas against the primary card, including stock secondary.
+                damage_key='Damage' if 'Damage' in card else 'Variable Damage'
                 def card_value(k):
                     return base_card[k]+delta.get(k,0) if isinstance(base_card.get(k),(float,int)) else None
                 effect=summaries['ammo'].get(an)
@@ -98,7 +99,7 @@ def build(cache, output):
                     effect=None
                     issues.append({'id':aid,'field':'effects','kind':'name_description_conflict','resolution':'kept_null','sourceUrl':ORIGIN+path})
                 record('ammo',aid,{'nameEn':an_display,'weaponId':id,'priceHuntDollars':a.get('priceDollars'),
-                    'damage':card_value('Damage'),'velocityMps':ballistics.get('muzzleVelocity',card_value('Muzzle Velocity')),
+                    'damage':card_value(damage_key),'velocityMps':ballistics.get('muzzleVelocity',card_value('Muzzle Velocity')),
                     'dropMeters':card_value('Drop Range'),'effects':effect},path,
                     ('weaponId','damage','velocityMps','dropMeters','effects','nameEn'))
                 details[aid]={'sourceUrl':ORIGIN+path,'sourceId':a['id'],'chamber':chamber,'sourceNameEn':an,
@@ -107,10 +108,12 @@ def build(cache, output):
                     'ballisticOverrides':ballistics,'damageSource':a.get('damageSource'),'damageFalloffMeters':a.get('damageFalloff'),
                     'falloffCurve':a.get('falloffCurve'),'penetrationAmmo':a.get('penetrationAmmo'),
                     'impactBurst':a.get('impactBurst'),'availableWeaponAmmoSlots':w.get('customAmmoSlots'),
-                    'calculationNote':'Secondary barrel card base and per-selection slot consumption remain unknown; do not use primary barrel values.'}
+                    'damageCardKey':damage_key,
+                    'ammoCounts':{k:ballistics.get(k,(w.get('alternate') or {}).get(k) if chamber=='secondary' else w.get(k)) for k in ['ammoLoaded','ammoReserve']},
+                    'calculationNote':'Card value = primary card + selected override delta. Not projectile or simulated body-zone damage; mixed pool distribution is unverified.'}
                 image_candidate(aid,an,a.get('icon'),path)
         vals={'nameEn':name,'ammoClass':w.get('ammo'),'priceHuntDollars':w.get('priceDollars'),
-            'damage':card.get('Damage'),'velocityMps':w.get('muzzleVelocity'),'dropMeters':card.get('Drop Range'),
+            'damage':card.get('Damage',card.get('Variable Damage')),'velocityMps':w.get('muzzleVelocity'),'dropMeters':card.get('Drop Range'),
             'cycleSeconds':card.get('Cycle Time'),'slots':w.get('slots'),'capacity':w.get('ammoLoaded'),
             'reserveAmmo':w.get('ammoReserve'),'reloadSeconds':w.get('reloadTime'),
             'customAmmoIds':ammo_ids,'customAmmoCoverage':'complete' if w.get('ammoOverrides') is not None or w.get('ammoOverrides2') is not None else ('none' if not w.get('customAmmoSlots') else 'partial')}
@@ -121,7 +124,7 @@ def build(cache, output):
             'inventoryDomain':'gear' if name in name_ids['gear'] else 'weapons',
             'canonicalInventoryId':name_ids['gear'].get(name,id),
             'familyName':w.get('familyName'),'weaponType':w.get('weaponType'),'actionType':w.get('actionType'),
-            'damageBasis':'in_game_card','inGameCardStats':card,'bayouDisplayDamage':w.get('displayDamage'),
+            'damageBasis':'in_game_card','damageCardKey':'Damage' if 'Damage' in card else 'Variable Damage','stockSecondaryCardDeltas':((w.get('ammoOverrides2') or [{}])[0].get('stats')),'inGameCardStats':card,'bayouDisplayDamage':w.get('displayDamage'),
             'baseProjectileDamage':w.get('perHitDamage'),'pellets':w.get('pellets'),
             'damageFalloffMeters':w.get('damageFalloff'),'falloffCurve':w.get('falloffCurve'),
             'customAmmoSlots':w.get('customAmmoSlots'),'reportedUnlockRank':w.get('unlockRank'),
