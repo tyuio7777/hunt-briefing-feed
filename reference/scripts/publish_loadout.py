@@ -7,6 +7,29 @@ from pathlib import Path
 from urllib.parse import urlparse
 DOMAINS=('weapons','ammo','gear','traits','skins','images')
 def encode(x):return (json.dumps(x,ensure_ascii=False,separators=(',',':'))+'\n').encode()
+def validate_fields(values):
+ for key,value in values.items():
+  if value is None:continue
+  if key in ('customAmmoIds','equipmentIds'):
+   assert isinstance(value,list) and all(isinstance(x,str) and re.fullmatch('[a-z][a-z0-9-]{0,119}',x) for x in value)
+  if key in ('capacity','reserveAmmo','packCount','slots','ammoSlotCount','costPoints'):
+   assert type(value) is int and 0<=value<=10000
+  if key=='secondaryStats':
+   assert isinstance(value,dict) and all(v is None or type(v) in (int,float) and 0<=v<1e12 for v in value.values())
+  if key=='effectStructured':
+   assert isinstance(value,dict) and isinstance(value.get('effects'),list) and len(value['effects'])<=100
+   for effect in value['effects']:validate_effect(effect)
+def validate_effect(effect):
+ assert isinstance(effect,dict)
+ for key,value in effect.items():
+  if key in ('targetIds','traitIds','requiresTraitIds'):
+   assert isinstance(value,list) and all(isinstance(x,str) and re.fullmatch('[a-z][a-z0-9-]{0,119}',x) for x in value)
+  if key=='value':assert type(value) in (int,float) and abs(value)<=10000
+  if key=='overrides':
+   assert isinstance(value,list) and len(value)<=100
+   for row in value:
+    assert isinstance(row,dict) and 'overrides' not in row
+    validate_effect(row)
 def validate(c,r):
  assert c['schemaVersion']=='1.0.0' and c['dataVersion']
  assert r['schemaVersion']==1 and r['weaponPositions']==2 and r['equipmentSlots']==8 and 1<=r['baseWeaponCapacity']<=10
@@ -16,7 +39,7 @@ def validate(c,r):
   if domain in ('weapons','gear','traits'):assert len(c[domain])>0
   for i in c[domain]:
    assert re.fullmatch('[a-z][a-z0-9-]{0,119}',i['id']) and i['id'] not in ids
-   ids[i['id']]=(domain,i);assert i['values']['nameEn']
+   ids[i['id']]=(domain,i);assert i['values']['nameEn'];validate_fields(i['values'])
    for k,v in i['values'].items():
     if type(v) in (int,float):assert v>=0 and abs(v)<1e12
     if v is not None and k not in ('nameEn','nameKo'):
