@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-14T09:00:00+09:00",
+  "updated_at": "2026-11-16T09:00:00+09:00",
   "status": "ready",
   "issue": {
-    "id": "2026-11-14",
+    "id": "2026-11-16",
     "title": "공식 3건 · 커뮤니티 7건 · 루머 2건",
-    "subtitle": "Reap the Harvest 일정 공백 · 11월 13일 빌드 신호 · Lancaster 대기 여론",
-    "published_at": "2026-11-14T09:00:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-14.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-14.html",
+    "subtitle": "Reap 시작일 재질문 · 11월 15일 빌드 변경 · 신규 로드아웃 영상",
+    "published_at": "2026-11-16T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-16.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-16.html",
     "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/ee23d0f7d8b356c0c96ad0a0be80f44ac4708000.jpg"
   }
 }
