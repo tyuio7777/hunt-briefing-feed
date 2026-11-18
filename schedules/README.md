@@ -1,11 +1,7 @@
 # Encrypted shared schedules
 
-`channels/<sha256-of-code>.json` contains AES-256-GCM ciphertext and opaque ownership metadata only.
-Share codes, creator credentials, GitHub tokens, FCM tokens, schedule titles, descriptions and appointment times must never be committed here.
+The Android app submits an encrypted appointment to a GitHub Issue in tyuio7777/hunt-briefing-guestbook with the existing guestbook user's GitHub session. Edits and cancellations update the original Issue. The publish-shared-schedules workflow reads that public inbox every five minutes, validates the Issue number, GitHub author, event ID and version, and publishes changes under `channels/<sha256-of-normalized-code>.json`.
 
-The Android app decrypts only a registered code's channel. Personal appointments never enter this folder.
-The existing proxy's `/schedules/v1/write` route validates a separate device creator credential, optimistic version and operation ID before committing a record. Knowledge of the share code does not grant permission to replace or delete an existing record.
+The app reads registered channels and decrypts appointments on the device. Titles, descriptions and appointment times are encrypted. The source Issue exposes the author's GitHub identity and operational metadata. Share codes, tokens, subscriber lists and private appointments are never placed in these files.
 
-Records become invisible at creation time + 6 calendar months (KST). The daily cleanup workflow removes expired current records and empty channel files. Git history and third-party copies can retain ciphertext: this is not a guarantee of irreversible erasure. GitHub may delay a scheduled run or disable an inactive public repository's schedule after 60 days; client-side expiry remains enforced.
-
-Only schedule files are managed here. Official feed content, reference data and other scheduled tasks remain independent.
+Appointments expire six calendar months after registration in Korea Standard Time. The daily cleanup workflow prunes expired records and empty channel files. The guestbook repository separately closes expired Issues and removes ciphertext from their current bodies. Git and Issue edit history can retain previous ciphertext. Background publication and device notification delivery depend on GitHub Actions and Android scheduling.
