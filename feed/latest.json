@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-21T09:00:00+09:00",
+  "updated_at": "2026-11-23T09:00:00+09:00",
   "status": "ready",
   "issue": {
-    "id": "2026-11-21",
-    "title": "공식 3건 · 커뮤니티 7건 · 루머 2건",
-    "subtitle": "Reap the Harvest 진행 확인 · Stage 1 위키 기록 · Lancaster 해금 추적",
-    "published_at": "2026-11-21T09:00:00+09:00",
-    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-21.json",
-    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-21.html",
+    "id": "2026-11-23",
+    "title": "공식 3건 · 커뮤니티 8건 · 루머 2건",
+    "subtitle": "Lancaster 해금 · 긴급 백엔드 점검 · Stage 3 진행 추적",
+    "published_at": "2026-11-23T09:00:00+09:00",
+    "json_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-23.json",
+    "html_url": "https://raw.githubusercontent.com/tyuio7777/hunt-briefing-feed/main/feed/2026/11/2026-11-23.html",
     "hero_image_url": "https://clan.akamai.steamstatic.com/images/30897473/ee23d0f7d8b356c0c96ad0a0be80f44ac4708000.jpg"
   }
 }
