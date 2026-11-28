@@ -30,8 +30,10 @@ strong{color:#fff4e8}.note{border-left:4px solid var(--ember);background:#231611
 .status-list{display:grid;gap:10px;margin-top:14px}.status-row{background:var(--raised);border:1px solid var(--line);border-radius:11px;padding:14px 16px}.status-row b{display:block;margin-bottom:3px}
 .page-header{margin:0 0 14px}
 .page-header .masthead{margin:0;color:#b58c70;font-size:12px;line-height:1.5;font-weight:700;letter-spacing:2px}
-.page-header .masthead time{white-space:nowrap;font-variant-numeric:tabular-nums}
-.page-header h1{overflow-wrap:break-word;color:#f4efe6;font-size:clamp(1.55rem,4.5vw,1.75rem);line-height:1.25;margin:10px 0 0}
+.page-header .masthead-updated{display:inline-block;white-space:nowrap;font-size:11px;letter-spacing:.25px}
+.page-header .masthead time{font-variant-numeric:tabular-nums}
+.page-header h1{color:#f4efe6;font-size:clamp(14px,5.2vw,28px);line-height:1.25;margin:10px 0 0}
+.page-header .headline-line{display:block;white-space:nowrap}
 .official-card{border-top:4px solid var(--gold)}
 .page-header+.card{margin-top:0}
 .card+.hero{margin-top:18px}
@@ -45,8 +47,8 @@ footer{border-top:1px solid var(--line)}
 <main class="wrap">
 <article aria-labelledby="headline">
 <header class="page-header">
-<p class="masthead" data-updated-at="2026-11-28"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-.13em;margin-inline-end:.35em;pointer-events:none" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg>BAYOU DAILY · <time datetime="2026-11-28">2026-11-28</time></p>
-<h1 id="headline">HUNT: SHOWDOWN 1896 · LIVE OFFICIAL INFORMATION</h1>
+<p class="masthead" data-updated-at="2026-11-28T11:38:29+09:00"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-.13em;margin-inline-end:.35em;pointer-events:none" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg>BAYOU DAILY <span class="masthead-updated">· <time datetime="2026-11-28T11:38:29+09:00">2026.11.28 11:38:29 KST</time></span></p>
+<h1 id="headline"><span class="headline-line">HUNT: SHOWDOWN 1896</span><span class="headline-line">· LIVE OFFICIAL INFORMATION</span></h1>
 </header>
 <section class="card official-card" aria-labelledby="latest-official" data-latest-steam-id="1849827110443476">
 <h2 id="latest-official">최근 공식 공지</h2>
