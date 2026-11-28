@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "latest_version": "1.5.5",
-  "latest_version_code": 23,
+  "latest_version": "1.6.0",
+  "latest_version_code": 24,
   "minimum_supported_version": "1.0.0",
   "mandatory": false,
-  "published_at": "2026-11-25T00:00:00+09:00",
-  "title": "Hunt Briefing v1.5.5",
-  "release_notes": "기기에 보관한 일정도 같은 휴대폰에서 공유 코드를 구독하면 시작 알림을 받을 수 있습니다. 공유 코드 자동 하이픈·붙여넣기·입력 완료 시 적용과 관리자 일정 복구를 지원합니다. 로드아웃 빌더에 용량·탄종 필터와 이미지 공유를 추가하고, 두 구획의 탄약·특성 포인트·AI 평가의 장비명 표시를 개선했습니다. 브리핑 라이브러리는 정상 Nexus 발행본 간 연결 변경을 기록합니다. 헌트 스케줄 위젯의 색상·간격·화살표 정렬을 일정표에 맞추고, 월 이동 버튼과 플레이 동향의 링크 아이콘을 개선했습니다. 브리핑 목록에서 바로가기 사이드바를 열면 상단 기본 위치까지만 스크롤됩니다.",
+  "published_at": "2026-11-28T00:00:00+09:00",
+  "title": "Hunt Briefing v1.6.0",
+  "release_notes": "게이머 비콘에서 최대 3명의 Steam 계정을 등록하고 Hunt: Showdown 시작·종료 감지와 알림을 계정별로 설정할 수 있습니다. 게임 시작 알림에서 로드아웃·최신 브리핑·실시간 공식 정보를 바로 엽니다. 지원 화면의 빈 곳을 두 번 터치해 메모지를 붙이고, 메모 리스트에서 모아 보거나 편집할 수 있습니다. 브리핑 채널 영상에는 다시 볼 시점에 개인 핀을 남기고 삭제를 되돌릴 수 있습니다. 내가 게시한 공유 일정도 같은 기기에서 코드를 구독하고 푸시 알림을 켜면 시작 알림을 예약하도록 수정했습니다.",
   "download_url": "https://github.com/tyuio7777/hunt-briefing-feed/releases/latest/download/hunt-briefing.apk"
 }
